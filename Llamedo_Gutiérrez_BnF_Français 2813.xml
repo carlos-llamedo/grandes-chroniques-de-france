@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="teibp.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+			<title><head>Grandes chroniques de France de Charles V. Prólogo, índice de contenidos y caps. I-V en formato digital.</head></title>
+			<respStmt>
+				<resp>Editado por</resp>
+				<persName ref="https://orcid.org/0009-0009-2819-5157" key="Llamedo Gutiérrez, Carlos (2001- )" xml:id="CLG">
+					<surname>Carlos</surname>
+					<forename>Llamedo</forename>
+					<forename>Gutiérrez</forename>
+				</persName>
+			</respStmt>
+         </titleStmt>
+         <publicationStmt>
+			<authority ref="https://www.uniovi.es/estudia/grados/humanidades/historia/-/fof/asignatura/GHISTO01-4-005">Tecnologías de la Información y la Comunicación Aplicadas a la Historia. Grado en Historia</authority>
+			<availability status="free">
+				<licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+					<p>Este fragmento está bajo una Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</p>
+				</licence>
+			</availability>
+			<publisher xml:id="UO">Universidad de Oviedo</publisher>
+			<pubPlace>
+				<country key="ES">España</country>
+				<district type="CA" key="ES-AS">Principado de Asturias</district>
+				<district type="provincia" key="ES-O">Principado de Asturias</district>
+				<settlement>Oviedo</settlement>
+			</pubPlace>
+			<date when="2024"/>
+         </publicationStmt>
+         <sourceDesc>
+			<msDesc>
+				<msIdentifier>
+					<idno>Français 2813</idno>
+					<repository>Bibliothèque nationale de France. Département des Manuscrits</repository>
+					<ident>http://gallica.bnf.fr/ark:/12148/btv1b84472995</ident>
+					<institution>Bibliothèque nationale de France</institution>
+					<settlement>Paris</settlement>
+					<district type="département" key="FR-75">Paris</district>
+					<district type="région" key="FR-IDF">Île-de-France</district>
+					<country key="FR">France</country>
+				</msIdentifier>
+				<msContents class="chronicle">
+					<summary>
+						El fragmento editado pertenece a las Grandes crónicas de Francia, encargadas originalmente por Luis IX y continuadas por los monjes de Saint-Denis por orden de Carlos V hasta 1379. En ellas se presenta un relato inédito de la historia de la realeza francesa; texto e ilustración contribuyen a reforzar la idea de la legitimidad y el poder de los Valois en el último cuarto del siglo XIV, trazando una historia de los francos que se remonta a los troyanos y que cubre a las dinastías Merovingia, Carolingia y la de los Capeto y, a las que se añaden posteriormente los reinados contemporáneos de los Valois Juan II el Bueno y de Carlos V el Sabio. Se ofrece así una rara oportunidad de comprender la génesis y la evolución del pensamiento político real y de la propaganda francesa de época. En esta edición se presentan el prefacio de la crónica, la tabla de contenidos que se hace de ella y sus cinco primeros capítulos, que comienzan en la guerra de Troya y terminan con Clodión, de la dinastía Merovingia.
+					</summary>
+					<msItem>
+						<locus from="1r" to="6v">Págs. 1r-6v</locus>
+						<author>
+							<respStmt>
+								<resp>Copista de <locus from="1r" to="385v"/>las págs. 1-385, concernientes a los eventos previos al reinado de Felipe de Valois, <date notAfter="1375">antes de 1375</date></resp>
+								<persName>
+									<forename>Henri</forename>
+									<nameLink>du</nameLink>
+									<surname>Trévou</surname>
+								</persName>
+							</respStmt>
+							<respStmt>
+								<resp>Ilustrador de las miniaturas de las pp. 3v y 4</resp>
+								<name><roleName>El maestro de la coronación de Carlos VI</roleName></name>
+							</respStmt>
+							<respStmt>
+								<resp>Ilustrador de las minuaturas de las pp. 5v, 85v, 122v, 149, 166v, 182 y 200, entre otras</resp>
+								<persName>
+									<forename>Perrin</forename>
+									<surname>Remiet</surname>
+								</persName>
+							</respStmt>
+						</author>
+						<title lang="fr">Grandes chroniques de France</title>
+						<textLang mainLang="fr" ref="https://www.wikidata.org/wiki/Q35222">Francés antiguo</textLang>
+						<incipit>Ce sont les Croniques de France selon ce qu'il sont composées en l'église de Saint Denis en France</incipit>
+						<explicit>Ci avons descript le siège de toute Galle, au miex que nous puons selon les livres des anciens aucteurs.</explicit>
+						<listBibl>
+							<head>Catálogos</head>
+								<bibl>Bibliothèque impériale, Département des Manuscrits,Catalogue général. des manuscrits français, t. I, Ancien fonds, Paris, 1868, p. 494, n° 2813.</bibl><bibl>H. Omont, Anciens inventaires et catalogues de la Bibliothèque nationale, t. IV, Paris, 1913, p. 83, n° 8395.</bibl>
+							<head>Fuentes impresas</head>
+								<bibl>L. Delisle, Recherches sur la librairie de Charles V, Paris, 1907, t. I, p. 312-314, n° 90 ; t. II, p. 262, n° 241.</bibl><bibl>J. Guiffrey, Inventaires de Jean, duc de Berry, Paris, 1894-1896, t. I, p. CLXXII, n° 46 ; t. II, p. 318.</bibl>
+							<head>Ediciones</head>
+								<bibl>R. Delachenal, éd., Grandes chroniques de France. Chroniques des règnes de Jean II et de Charles V, Paris, 1910-1920, 4 vol.</bibl><bibl>J. Viard, éd., Les Grandes Chroniques de France, Paris, 1920-1953 (Société de l’Histoire de France).</bibl>
+							<head>Texto</head>
+								<bibl>L. Labacane, « Recherches sur les auteurs des Grandes Chroniques de France, dites de Saint-Denys », dans Bibliothèque de l’École des chartes, vol. II, 1re série, 1841, p. 57-74, en particular p. 71.</bibl><bibl>B. Guenée, « Les grandes Chroniques de France, le roman aux roys (1274-1518) », dans Les Lieux de mémoire, II : La Nation, éd. Pierre Nora, Paris, Gallimard, 1986, p. 189-214.</bibl><bibl>N. Desgrugillers, éd., La grande chronique du règne de Philippe IV le Bel : 1285-1314 : Ms BnF, 2813, Clermont-Ferrand, 2011.</bibl><bibl>Richard Coeur de Lion. Entre mythe et réalités , Gand, 2016, p. 112-126.</bibl>
+							<head>Codicología</head>
+								<bibl>P. Josserand et J. Bruno, « Les estampilles du département des imprimés de la bibliothèque nationale », dans Mélanges d’histoire du livre et des bibliothèques offerts à Monsieur Franz Calot, 1960, 261-298.</bibl>
+							<head>Ilustración</head>
+								<bibl>C. Richter Sherman, The portraits of Charles V of France, New York, 1969, p. 41-44.</bibl><bibl>A. D. Hedeman, « Valois Legitimacy », dans Art Bulletin, 66, 1984, p. 97-117.</bibl><bibl>Ead., « Restructuring the Narative », dans Studies in The History of Art, 16, 1985, p. 171-181.</bibl><bibl>Colette Beaune, Le miroir du pouvoir, Paris, 1990, p. 36-37, 42, 49, 112, 122-123, 138, 144 et 178..</bibl><bibl>A. D. Hedeman, « Copies in Context : The Coronation of Charles V in his Grandes Chroniques de France », dans Coronations : Medieval and Early Modern Monarchic Ritual, éd. J. Bak, Berkeley-Los Angeles, 1990, p. 72-87.</bibl><bibl>Ead., The royal image. Illustrations of the « Grandes Chroniques de France », 1274-1422, Berkeley-Los Angeles-Oxford, 1991, p. 95-133, p. 244-248.</bibl><bibl>St. Perkinson, « Rethinking the origins of portraiture », dans Gesta (Fort Tryon Park, N.Y.), vol. 46/2, 2007 ; cité p. 146 ; ill. p. 146, fig. 10 [fol. 357] et ill. p. 147, fig. 11 [fol. 470v] ; p. 157, n. 98 [fol. 473v].</bibl><bibl>L. Rioust et O. Karaskova, Les Grandes Chroniques de France. Un manuscrit royal du temps de Charles VI, Art de l'enluminure, n° 52, mars-mai 2015.</bibl><bibl>N. Fleurier, Paris, enluminures, Paris, 2009, p. 26 et 74.</bibl><bibl>B. Carque, « Paris 1377-1378 : un lieu de pouvoir et sa visibilité entre Moyen Âge et temps présent », dans Medievales , t. 53, 2007, p.123-142.</bibl><bibl>Images &amp; Révoltes dans le livre et l'estampe (XIVe-milieu du XVIIIe siècle), Paris, Bibliothèque Mazarine, 2016.</bibl>
+							<head>Historia</head>
+								<bibl>L. Delisle, Cabinet des manuscrits de la Bibliothèque impériale, t. I, Paris, 1868, p. 18-54.</bibl><bibl>R. H. Rouse and M. A. Rouse, Manuscripts and their Makers. Commercial Book Producers in Medieval Paris, 1200-1500, Turnhout, 2000, p. 51 ("Henri de Trévou") et 121 ("Raoulet d'Orléans").</bibl><bibl>M.-H. Tesnière, « Les livres de Charles V », dans Vincennes : du manoir capétien à la résidence de Charles V, Dossier d’archéologie, n° 289, décembre 2003-janvier 2004, p. 96-103, en part. p. 102.</bibl><bibl>Ead., « Livres et pouvoir royal au XIVe siècle : La Librairie du Louvre », dans J.-F. Maillard, I. Monok, D. Nebbiai, De Bibliotheca Corviniana : Matthias Corvin, les bibliothèques princières et la genèse de l'État moderne , Budapest, 2009, p. 257, 260, 262.</bibl><bibl>Ead., « Les deux livres du roi Charles V », dans Une histoire pour un royaume (XIIe-XIVe siècle), Paris, 2010, p. 281-298, en part. p. 281-282.</bibl><bibl>M. Peyrafort-Huin, « Une reine en sa bibliothèque : Jeanne de Bourbon et ses livres », dans Bulletin du bibliophile, n°1, 2017, p. 43-66, fig. p. 56.</bibl>
+							<head>Exposiciones</head>
+								<bibl>J. Porcher, Les manuscrits à peintures en France du XIIIe au XIVe siècle[Bibliothèque nationale], Paris, 1955, n° 123.</bibl><bibl>F. Avril, La librairie de Charles V [Bibliothèque nationale], Paris, 1968, p. 112, n° 195.</bibl><bibl>Kaiser Karl IV [Bayeriches Nationalmuseum], München, 1978, n° 180.</bibl><bibl>F. Avril, Les fastes du gothique : le siècle de Charles V [Galeries nationales du Grand Palais], Paris, 1981, p. 329-331, n° 284 ; p. 338-339, n° 294.</bibl><bibl>Paris 1400. Les arts sous Charles VI [Musée du Louvre], Paris, 2004, p. 38-39, n° 5.</bibl>
+							<head>Bibliografía reciente</head>
+								<bibl>Julian M. LUXFORD et M. A. MICHAEL (dir.), Tributes to Nigel Morgan contexts of Medieval Art : images objetcs et ideas, London : Harvey Miller publishers, 2010, cité p. 145 n. 33.</bibl><bibl>Aysso es lo comessamen : écritures et mémoires de Montpellier médiéval, dir. Vincent CHALLET, Montpellier : Presses universitares de la Méditérranée, 2017, cité p. 97.</bibl><bibl>Alexa SAND, Vision, devotion, and self-representation in late medieval art, New York : Cambridge University press, 2014, cité p. 282, 357, 362.</bibl><bibl>Michael JOHNSTON et Michael VAN DUSSEN (dir.), The medieval manuscript book : cultural approaches, Cambridge : Cambridge university press, 2015, cité dans l’index.</bibl><bibl>Stephen N.FLIEGEL et Elina GERTSMAN (dir.), Myth and mystique : Cleveland's Gothic table fountain, Cleveland : Cleveland Museum of Art, 2016, notice p. 144-147.</bibl><bibl>Florence BRAZÉ-MOLY Francesca MARINI (dir.), Medieval Charm : illuminated manuscripts for Royal Aristocratic and Ecclesiastical Patronage, Pollestres : TDO Éditions, 2016, cité pp. 41, 45 et 63.</bibl><bibl>Nicolas HATOT, Marie JACOB (dir.), Trèsors enluminés de Normandie : une (re)découverte, Rennes : Presses universitaires de Rennes, cité p. 136.</bibl><bibl>Vanina KOPP, Der Köning und die Bücher : Sammlung, Nutzung und Funktion der Königlichen Bibliotek am spämittelalterlichen Hof in Frankreich, Ostfildern : Jan Thorbecke Verlag der Schwabenverlag AG, 2016, cité p. 369.</bibl><bibl>Alexander SCHUBERT, Richard Löwenherz : König - Ritter - Gefangener, Regensburg : Schnell und Steiner, 2017, cité pp. 151, 162 et 363.</bibl><bibl>Isabelle GUYOT-BACHY (dir.), La Flandre et les Flamands au miroir des historiens du royaume (Xe-Xve siècle), Villeneuve-d'Ascq : Presses universitaires du Septentrion, 2017, cité p. 142.</bibl><bibl>Bruno LAURIOUX, Agostino PARAVICINI et Eva PIBIRI (dir.), Le banquet : manger, boire et parler ensemble (XIIe-XVIIe siècle), Firenze : SISMEL edizioni del Galluzzo, 2018, cité ps. 99, 105, 106, 107, 116, 119, 126, 127.</bibl><bibl>Revue d'histoire des textes : nouvelle série : tome XIV, Turnhout : Brepols Publishers n. v., 2019, cité p. 326.</bibl>
+						</listBibl>
+					</msItem>
+				</msContents>
+				<physDesc>
+					<objectDesc form="codex">
+						<supportDesc material="parch">
+							<support>
+								<p>Códice de <material>pergamino</material> medieval, especialmente grueso en las tres hojas de respeto.</p>
+								<dimensions unit="mm" type="leaves" scope="all">
+									<height>330</height><width>220</width>
+								</dimensions>
+								<dimensions unit="mm" type="ruled" scope="most">
+									<height>225</height><width>145</width><!-- esto refiere exclusivamente a la justificación del texto -->
+								</dimensions>
+							</support>
+							<extent>
+								<measure unit="pages" quantity="6">6 páginas de contenido</measure><!-- ¿Seguro que tengo que indicar las páginas que yo edito, y no las páginas del propio manuscrito físico? - Respuesta: SÍ -->
+							</extent>
+							<foliation>Foliación moderna a lápiz en el margen superior derecho y en el margen inferior derecho.</foliation>
+							<condition><p>Muy buen estado general de conservación.</p></condition>
+						</supportDesc>
+						<layoutDesc>
+							<layout columns="2">
+								<p>Dos columnas por página, escritura reglada excepto para el título del capítulo 1, en la p. 4v, que está escrito a línea tirada.</p>
+							</layout>
+						</layoutDesc>
+					</objectDesc>
+					<handDesc>
+						<handNote scope="major">El copista escribe en carolina redonda.</handNote>
+					</handDesc>
+					<bindingDesc>
+						<p>Encuadernado en marroquí rojo con el escudo real en la cubierta, con triple hilo dorado. Encajes dorados en los bordes y en el interior de la cubierta y contracubierta. Bordes dorados con decoración de flores de lis. Lomo con cifra real y título en mayúsculas doradas: "CRONIQUE DE S. DENIS JUSQUE A CHARLES .V.".</p>
+					</bindingDesc>
+					<decoDesc>
+						<decoNote><p>El comienzo de párrafos de importancia, que abren secciones, tiene una capital ricamente decorada en azul o rosado. En la tabla de contenidos, cada enunciación de capítulo está encabezada por una capital más pequeña que alterna entre azul y rojo. Para cubrir espacio de líneas de final de párrafo, se emplea una grafía ornamentada y zigzagueante en rojo y azul. Las pp. 1r, 1v y 5v están enmarcadas mediante ornamentación floral. Las pp. 3v, 4r y 5v contienen ricas miniaturas. En el primero, 3v, se representa a los señores sujetando la corona de quien parece ser Carlos V —cuestión discutida, durante tiempo se pensó que podía ser Carlos VI, hipótesis descartada por las fechas de elaboración del manuscrito—. Esta página, de hecho, sería una interpolación de la tercera fase de producción del manuscrito, actuando de frontispicio externo para el primer libro una vez se juntan los dos volúmenes en el siglo XV. En 4r se representa el desembarco de los griegos en Troya; el asalto a una ciudad; a Franción fundando Sicambria; y a los troyanos derrotando al ejército imperial. La miniatura, más pequeña, de 5v muestra a quien parece ser Dagoberto supervisando la construcción de la abadía de Saint-Denis, siendo este el primer rey en enterrarse allí. El margen superior de todas las páginas excepto de la 3v y las páginas en blanco presenta un elemento ornamental, en azul, rojo, o ambos, indicando recto y vuelto. Las marcas del rey Carlos V pueden verse en todo el volumen. En la p. 263v puede verse el ex libris del rey bajo una lámpara de madera: "Ces Croniques de France sont a nous le Ve de notre nom, roy de France [et le fismes escrire], enluminer [et parfere]. Charles" (véase M.-H. Tesnière 2010, p. 282). Las armas reales aparecen en las páginas del frontispicio de los dos volúmenes originales (p. 4 y 265), así como en la p. 3v. 
+						</p></decoNote>
+					</decoDesc>
+				</physDesc>
+				<history>
+					<origin notBefore="1375" notAfter="1379" evidence="external">
+						La copia original habría sido encargado en tiempos de Luis IX a la abadía de Saint-Denis. Esta versión es reactualizada en el siglo XIV para incluir el reinado de Juan II el Bueno y de Carlos V, de la dinastía de los Valois. Hay dos copistas: Henri du Trévou, copista de <locus from="1r" to="385v"/>las págs. 1-385, concernientes a los eventos previos al reinado de Felipe de Valois, que trabaja <date notAfter="1375">antes de 1375</date>; y Raoulet d'Orléans, copista de <locus from="386r" to="492v"/>las págs. 386-492 concernientes a los reinados de Juan el Bueno y Carlos V, <date notBefore="1375" notAfter="1379">entre 1375 y 1379</date> y bajo la dirección de Pierre d'Orgemont. Durante su primera etapa de ejecución Carlos V, rey desde 1364, ordena una continuación de las Grandes crónicas que añadía a la historia tradicional escrita por los monjes, acerca de los merovingios, los carolingios y los capetos, testimonios del reinado de su padre y del suyo propio. Así, esta copia de las Grandes Chroniques (B.N. fr. 2813), que la continuación expande, se convierte en el manuscrito de referencia, influyento toda una generación de libros reales y cortesanos. El manuscrito de Carlos V incorpora la historia de los Valois, una rama de los capetos, a la historia oficial de los reyes franceses en un momento en el que la Corona de Inglaterra cuestiona la legitimidad de estos gobernantes. Esta versión se configura a lo largo de cuatro campañas de modificación y corrección. Durante su primera etapa, Henri du Trévou escribe una crónica en dos volúmenes que termina con la vida de Felipe de Valois. En una segunda etapa, Raoulet d'Orléans introduce títulos, cambia los últimos folios de Felipe de Valois y añade los eventos de los reinados de Juan el Bueno y de Carlos V hasta 1375. Durante el tercer momento de producción, d'Orléans documenta los eventos entre otoño de 1375 y primavera de 1379, e inserta cinco conjuntos de texto y miniaturas a la primera parte del manuscrito, como la miniatura de la p. 3v, ya mencionada. La cuarta y última etapa tiene lugar en el siglo XV, cuando sendos manuscritos son combinados en un solo volumen.
+					</origin>
+					<provenance>
+						El manuscrito formaba parte de las colecciones de Carlos V en el castillo de Vincennes. Los inventarios de la Biblioteca del Louvre, elaborados entre 1380 y 1411 (inv. de Gilles Malet, 1380: BnF, ms. Français 2700, f. 13v, nº 252 [inv. A] y ms. Baluze, 397, nº 264 [inv. B]; inv. de 1411: BnF, ms. Français 2700, p. 44v, nº 77 [inv. C]), indican que el manuscrito había sido transportado a Vincennes antes de la muerte del rey Carlos V: "Les Croniques de France, en .II. volumes, couvertes de soye inde a queue, et sont en .II. estuiz de cuir escorchiez aus armes de France. Añadido: Lesquelles furent portees au Bois devers ledit feu roy Charles" (inv. C). Sin embargo, no figura en el inventario de las joyas de la torre del homenaje de Vincennes elaborado en 1380 (BnF, ms. Français 2705). Probablemente recibió su encuadernación en 1378, como parece indicar una orden de Carlos V de pagar a Dine Raponde 190 francos de oro por piezas "baudequin et de cendail": "Pour les hez et chemises des Croniques de France et celles que a faittes monseigneur le chancelier [Pierre d'Orgemont], pour .II. volumes pour ledit seigneur, une pièce de baudequin, .XXVI. frans" (Delisle 1907, I, p. 313 y n. 1). El manuscrito entró en las colecciones de Jean de Berry en una fecha indeterminada. No figura en los inventarios de la biblioteca del duque elaborados en 1413 (Arch. nat. KK 258 ) y 1416 (Bibl. Sainte-Geneviève, ms. 841: relato de Jean Lebourne, albacea de los bienes del duque de Berry), pero es citado por Léopold Delisle a partir de un inventario de libros y joyas conservado en Bourges: "Un Livre des chroniques de France, en deux volumes, ecrit en françois, de lettres de forme, tres notablement historié et enluminé au commencement et en plusieurs lieux. Al principio de la segunda hoja del primer volumen está escrito: de tout le monde, y al principio de la tercera hoja del otro volumen: iI vint prés" (Delisle 1907, I, p. 313 y n. 1). El incipit del 2º folio se encuentra en la p. 5 (2º folio del texto del primer volumen original), l. 1: vainqueurs [p. 5] de tout le monde n'osoient faire; el del 3º folio del segundo volumen se encuentra en la p. 267, l. 1 (3º folio del segundo volumen original): il vint prés d'un chastel.
+					</provenance>
+					<acquisition>
+						Figura desde 1645 en los inventarios de la Biblioteca Real: catálogo de los hermanos Dupuy, nº 471; catálogo de Nicolas Rigault, 1682, nº 8395: "Chronique de France, appellée la Chronique de Saint-Denis" (Omont, Anciens inventaires..., IV, París, 1913, p. 83). Marcas en el margen superior de la p. 1: [Dupuy I] 741; [Regius] 8395. Después de la Revolución francesa, la Biblioteca Real se convierte en Nacional (y en Imperial y Real) manteniendo sus fondos.
+					</acquisition>
+				</history>
+			</msDesc>
+		 </sourceDesc>
+      </fileDesc>
+	  <profileDesc>
+		<particDesc>
+			<listPerson>
+				<person xml:id="Dios" ref="https://www.wikidata.org/wiki/Q825">
+					<persName type="divine">Dios</persName>
+					<occupation>Persona divina y trascendente</occupation>
+				</person>
+				<person xml:id="LIX" sex="m" type="king" ref="https://www.wikidata.org/wiki/Q346">
+					<persName><addName>San</addName><forename>Luis</forename><genName>IX</genName></persName>
+					<birth when="1214-04-25"/>
+					<death when="1270-08-25"/>
+					<occupation><affiliation ref="#CF">Rey de <placeName ref="#Fr">Francia</placeName></affiliation></occupation>
+				</person>
+				<person xml:id="SDP" sex="m" type="ecclesiastical" ref="https://www.wikidata.org/wiki/Q244380">
+					<persName><addName type="honorific">San</addName><forename>Dionisio</forename><addName type="epithet">el Glorioso</addName><addName type="demonym">de París</addName></persName>
+					<birth notAfter="0240"/>
+					<death notBefore="0250" notAfter="272"/>
+					<occupation>Obispo de <placeName ref="#Prs">París</placeName></occupation><occupation><affiliation ref="ICtl">Santo de la Iglesia católica</affiliation></occupation>
+				</person>
+				<person xml:id="Frm" sex="m" type="king" ref="https://www.wikidata.org/wiki/Q309924">
+					<persName>Faramundo</persName>
+					<occupation>Rey legendario de los francos salios, listado en el texto como el <affiliation ref="#CF">primer rey de <placeName ref="#Fr">Francia</placeName></affiliation></occupation>
+				</person>
+				<person xml:id="Cld" sex="m" type="king" ref="https://www.wikidata.org/wiki/Q235392">
+					<persName>Clodión</persName>
+					<birth notBefore="0385"/>
+					<death notAfter="0455"/>
+					<trait><p>Hijo de <persName ref="#Frm">Faramundo</persName></p></trait>
+					<occupation><affiliation ref="#DMrv">Primer rey de la dinastía Merovingia</affiliation> cuya existencia es certera, listado en el texto como el <affiliation ref="#CF">segundo rey de <placeName ref="#Fr">Francia</placeName></affiliation></occupation>
+				</person>
+				<person xml:id="Mero" sex="m" type="king" ref="https://www.wikidata.org/wiki/Q58165">
+					<persName>Meroveo</persName>
+					<birth notBefore="0400"/>
+					<death notAfter="0465"/>
+					<trait><p>Posiblemente hijo de <persName ref="#Cld">Clodión</persName></p></trait>
+					<occupation>Rey de los francos salios cuya existencia es debatida, listado en el texto como el  <affiliation ref="#CF">tercer rey de <placeName ref="#Fr">Francia</placeName></affiliation></occupation>
+				</person>
+				<person xml:id="Chld" sex="m" type="king" ref="https://www.wikidata.org/wiki/Q193869">
+					<persName><forename>Childerico</forename><genName>I</genName></persName>
+					<birth notBefore="0430"/>
+					<death when="0481-12-26"/>
+					<trait><p>Hijo de <persName ref="#Mero">Meroveo</persName></p></trait><trait><p>Esposo de <persName ref="#Bsn">Basina de Turingia</persName></p></trait>
+					<occupation>Rey de los francos salios listado en el texto como <affiliation ref="#CF">cuarto rey de <placeName ref="#Fr">Francia</placeName></affiliation></occupation>
+				</person>
+				<person xml:id="Gln" sex="m" type="king">
+					<persName>Gilon</persName>
+					<addName type="demonym">el Romano</addName>
+				</person>
+				<person xml:id="Bsn" sex="f" type="queen" ref="https://www.wikidata.org/wiki/Q268562">
+					<persName><forename>Basina</forename><addName type="demonym">de Turingia</addName></persName>
+					<birth notBefore="0430"/>
+					<death notAfter="0480"/>
+					<trait><p>Esposa de <persName ref="#Chld">Childerico I</persName></p></trait>
+					<occupation>Reina de Turingia</occupation><occupation><affiliation ref="#CF">Reina consorte de los francos</affiliation></occupation>
+				</person>
+				<person xml:id="Jstn" sex="m" type="empereour" ref="https://www.wikidata.org/wiki/Q41866">
+					<persName><forename>Justiniano</forename><genName>I</genName><addName type="epithet">el Grande</addName></persName>
+					<birth when="0482"/>
+					<death when="0565-11-14"/>
+					<trait><p>Esposo de <persName ref="#Thdr">Teodora</persName></p></trait>
+					<occupation>Emperador del Imperio romano de Oriente</occupation>
+				</person>
+				<person xml:id="Thdr" sex="f" type="empress" ref="https://www.wikidata.org/wiki/Q204843">
+					<persName>Teodora</persName>
+					<birth notBefore="0500"/>
+					<death when="0548-06-28"/>
+					<trait><p>Esposa de <persName ref="#Jstn">Justiniano I</persName></p></trait>
+					<occupation>Emperatriz del Imperio romano de Oriente</occupation>
+				</person>
+				<person xml:id="Odov" sex="m" type="general" ref="https://www.wikidata.org/wiki/Q103333">
+					<persName><forename>Odoacro</forename><addName type="alternative">Odovacar</addName></persName>
+					<birth notBefore="0425"/>
+					<death when="0493"/>
+					<occupation>General del Imperio romano de Occidente</occupation><occupation>Gobernador de facto de <placeName ref="#Ita">Italia</placeName> bajo la autoridad del emperador Zenón tras deponer a Rómulo Augusto en 476</occupation>
+				</person>
+				<person xml:id="Thlm" sex="m">
+					<persName>Ptolomeo</persName>
+				</person>
+				<person xml:id="Thdric" sex="m" type="king" ref="https://www.wikidata.org/wiki/Q105105">
+					<persName><forename>Flavio</forename><forename>Teodorico</forename><addName type="epithet">el Grande</addName><addName type="epithet" subtype="alternative">el Amalo</addName></persName>
+					<birth when="0454-05-12"/>
+					<death when="0526-08-30"/>
+					<trait><p>Depone a <persName ref="#Odov">Odoacro</persName> como rey de <placeName ref="#Ita">Italia</placeName></p></trait>
+					<occupation>Rey de los ostrogodos</occupation><occupation>Gobernante de la prefectura de <placeName ref="#Ita">Italia</placeName> desde el 493</occupation><occupation>Regente de Hispania desde el 526</occupation><occupation>Patricio del Imperio romano de Oriente</occupation>
+				</person>
+				<person xml:id="StPsc" sex="m" type="ecclesiastical">
+					<persName><addName type="honorific">San</addName><forename>Pascases</forename></persName>
+				</person>
+				<person xml:id="Cldv" sex="m" type="king" ref="https://www.wikidata.org/wiki/Q82339">
+					<persName><forename>Flavio</forename><forename>Clodoveo</forename><genName>I</genName><addName type="honorific">Augusto</addName><!-- así lo describe el texto --></persName>
+					<birth notBefore="0460"/>
+					<death when="0511-11-27"/>
+					<trait><p>Hijo de <persName ref="#Chld">Childerico I</persName> y de <persName ref="#Bsn">Basina</persName></p></trait>
+					<occupation><affiliation ref="#CF">Rey de los francos</affiliation> unificador de la Galia excepto por Bretaña y Septimania</occupation>
+				</person>
+				<person xml:id="StRm" sex="m" type="ecclesiastical" ref="https://www.wikidata.org/wiki/Q367208">
+					<persName><addName type="honorific">San</addName><forename>Remigio</forename><addName type="demonym">de Reims</addName></persName>
+					<birth notBefore="0435"/>
+					<death when="0533-01-13"/>
+					<occupation><affiliation ref="ICtl">Santo de la Iglesia católica</affiliation></occupation><occupation>Obispo de Reims</occupation><occupation>Apóstol de los francos</occupation>
+				</person>
+				<person xml:id="Crtld" sex="f" type="queen" ref="https://www.wikidata.org/wiki/Q232365">
+					<persName><addName type="honorific">Santa</addName><forename>Clotilde</forename></persName>
+					<birth notBefore="0470"/>
+					<death when="0545-06-03"/>
+					<trait><p>Esposa de <persName ref="#Cldv">Clodoveo I</persName></p></trait>
+					<occupation><affiliation ref="ICtl">Santa de la Iglesia católica</affiliation></occupation><occupation><affiliation ref="#CF">Reina consorte de los francos</affiliation></occupation>
+				</person>
+				<person xml:id="Cldmr" sex="m" type="king" ref="https://www.wikidata.org/wiki/Q189660">
+					<persName>Clodomiro</persName>
+					<birth notAfter="0496"/>
+					<death when="0524-06-21"/>
+					<trait><p>Hijo de <persName ref="#Cldv">Clodoveo</persName> y de <persName ref="#Crtld">Clotilde</persName></p></trait>
+					<occupation>Rey de los francos de Orléans</occupation>
+				</person>
+				<person xml:id="Gdb" sex="m" type="king" ref="https://www.wikidata.org/wiki/Q364245">
+					<persName>Gundebaldo</persName>
+					<birth notBefore="0450"/>
+					<death when="0516"/>
+					<occupation>Magiste militum del Imperio romano de Occidente</occupation><occupation>Rey de los burgundios</occupation>
+				</person>
+				<person xml:id="Alar" sex="m" type="king" ref="https://www.wikidata.org/wiki/Q110884">
+					<persName><forename>Alarico</forename><genName>II</genName></persName>
+					<birth notBefore="0470"/>
+					<death when="0507"/>
+					<occupation>Rey de los visigodos</occupation>
+				</person>
+				<person xml:id="Karar" sex="m" type="king" ref="https://www.wikidata.org/wiki/Q1063034">
+					<persName>Cararico</persName>
+					<birth notBefore="0460"/>
+					<death from="0491" to="0510"/>
+					<occupation>Rey de los francos salos</occupation>
+				</person>
+				<person xml:id="Kana" sex="m" type="aristocrat">
+					<persName><forename>Kanacaire</forename><addName type="honorific">Duque de Cambrai</addName></persName>
+				</person>
+				<person xml:id="Prm" sex="m" type="mythical king" ref="https://www.wikidata.org/wiki/Q170473">
+					<persName>Príamo</persName>
+					<occupation><affiliation ref="#CTry">Rey mítico de <placeName ref="#Try">Troya</placeName></affiliation></occupation>
+				</person>
+				<person xml:id="PrsT" sex="m" type="mythical prince" ref="https://www.wikidata.org/wiki/Q167646">
+					<persName>Paris</persName>
+					<trait><p>Hijo de <persName ref="#Prm">Príamo</persName></p></trait>
+					<occupation><affiliation ref="#CTry">Príncipe mítico de <placeName ref="#Try">Troya</placeName></affiliation></occupation>
+				</person>
+				<person xml:id="Heln" sex="f" type="mythical queen" ref="https://www.wikidata.org/wiki/Q164061">
+					<persName><forename>Helena</forename><addName type="demonyn">de Troya</addName></persName>
+					<trait><p>Esposa de <persName ref="#Mnls">Menelao</persName></p></trait>
+					<occupation>Reina consorte de Esparta. Es seducida o raptada por <persName ref="#PrsT">Paris</persName> causando la guerra de <placeName ref="#Try">Troya</placeName></occupation>
+				</person>
+				<person xml:id="Mnls" sex="m" type="mythical king" ref="https://www.wikidata.org/wiki/Q171839">
+					<persName>Menelao</persName>
+					<trait><p>Esposo de <persName ref="#Heln">Helena</persName></p></trait>
+					<occupation>Rey mítico de Esparta</occupation>
+				</person>
+				<person xml:id="Ecb" sex="f" type="mythical queen" ref="https://www.wikidata.org/wiki/Q193433">
+					<persName><forename>Hécuba</forename><forename type="alternative">Hécabe</forename></persName>
+					<trait><p>Segunda esposa de <persName ref="#Prm">Príamo</persName></p></trait>
+					<occupation><affiliation ref="#CTry">Reina consorte de <placeName ref="#Try">Troya</placeName></affiliation></occupation>
+				</person>
+				<person xml:id="Hlnus" sex="m" type="mythical prince" ref="https://www.wikidata.org/wiki/Q729332">
+					<persName>Héleno</persName>
+					<occupation><affiliation ref="#CTry">Príncipe <rs ref="Trys">troyano</rs></affiliation></occupation><occupation>Fundador mítico, tras la guerra de <placeName ref="#Try">Troya</placeName>, de una ciudad en <placeName ref="#Gr">Grecia</placeName> occidental</occupation>
+				</person>
+				<person xml:id="Eneas" sex="m" type="mythical character" ref="https://www.wikidata.org/wiki/Q82732">
+					<persName>Eneas</persName>
+					<occupation>Héroe de la guerra de Troya</occupation><occupation>Fundador mítico de un asentamiento en el Lacio, <placeName ref="#Ita">Italia</placeName></occupation>
+				</person>
+				<person xml:id="Anthn" sex="m" type="mythical character" ref="https://www.wikidata.org/wiki/Q571969">
+					<persName>Antenor</persName>
+					<occupation>Consejero del <persName ref="#Prm">rey Príamo</persName></occupation><occupation>Fundador mítico de Venecia y de Padua, <placeName ref="#Ita">Italia</placeName></occupation>
+				</person>
+				<person xml:id="Pndr" sex="m" type="mythical king">
+					<persName>Pandraso</persName>
+					<occupation>Rey aqueo mítico derrotado por los <rs ref="#Trys">troyanos</rs></occupation>
+				</person>
+				<person xml:id="Dido" sex="f" type="mythical queen" ref="https://www.wikidata.org/wiki/Q905162">
+					<persName>Dido</persName>
+					<occupation>Fundadora y reina mítica de <placeName ref="#Crtg">Cartago</placeName></occupation>
+				</person>
+				<person xml:id="Asc" sex="m" type="mythical character" ref="https://www.wikidata.org/wiki/Q655566">
+					<persName>Ascanio</persName>
+					<trait><p>Hijo de <persName ref="#Eneas">Eneas</persName></p></trait>
+				</person>
+				<person xml:id="Lavn" sex="f" type="mythical princess" ref="https://www.wikidata.org/wiki/Q1137364">
+					<persName>Lavinia</persName>
+					<trait><p>Hija del <persName ref="#Ltn">rey Latino</persName></p></trait>
+				</person>
+				<person xml:id="Ltn" sex="m" type="mythical king" ref="https://www.wikidata.org/wiki/Q779406">
+					<persName>Latino</persName>
+					<occupation>Rey mítico de los latinos</occupation>
+				</person>
+				<person xml:id="Slv" sex="m" type="mythical king" ref="https://www.wikidata.org/wiki/Q209398">
+					<persName>Silvio</persName>
+					<trait><p>Hijo de <persName ref="#Eneas">Eneas</persName> y de <persName ref="#Lavn">Lavinia</persName></p></trait>
+					<occupation>Rey mítico de Alba Longa, <placeName ref="#Ita">Italia</placeName></occupation>
+				</person>
+				<person xml:id="Brut" sex="m" type="mythical king" ref="https://www.wikidata.org/wiki/Q994929">
+					<persName><forename>Bruto</forename><addName type="epithet">de Troya</addName></persName>
+					<trait><p>Hijo de Silvio</p></trait>
+					<occupation>Fundador y rey mítico de <placeName ref="#GB">Inglaterra</placeName></occupation>
+				</person>
+				<person xml:id="Eleni" sex="m">
+					<persName>Eleno</persName>
+					<trait><p>Pertenece a la línea sucesoria de <persName ref="#Brut">Bruto de Troya</persName></p></trait>
+				</person>
+				<person xml:id="Crn" sex="f">
+					<persName>Corina</persName>
+					<trait><p>Pertenece a la línea sucesoria de <persName ref="#Anthn">Antenor</persName></p></trait>
+				</person>
+				<person xml:id="Trts" sex="m" type="mythical character">
+					<persName>Turtus</persName>
+					<trait><p>Hijo de <persName ref="#Trl">Troilo</persName></p></trait><trait><p>Primo de <persName ref="#Frncio">Francio</persName></p></trait>
+				</person>
+				<person xml:id="Frncio" sex="m" type="mythical character">
+					<persName>Francio</persName>
+					<trait><p>Hijo de <persName ref="#Hctr">Héctor</persName></p></trait><trait><p>Primo de <persName ref="#Trts">Turtus</persName></p></trait>
+				</person>
+				<person xml:ie="Hctr" sex="m" type="mythical character" ref="https://www.wikidata.org/wiki/Q159666">
+					<persName>Héctor</persName>
+					<trait><p>Hijo de <persName ref="#Prm">Príamo</persName></p></trait>
+					<occupation><roleName ref="#CTry">Príncipe de <placeName ref="#Try">Troya</placeName></roleName></occupation>
+				</person>
+				<person xml:id="Trl" sex="m" type="mythical character" ref="https://www.wikidata.org/wiki/Q867342">
+					<persName>Troilo</persName>
+					<trait><p>Hijo de <persName ref="#Prm">Príamo</persName></p></trait>
+					<occupation><roleName ref="#CTry">Príncipe de Troya</roleName></occupation>
+				</person>
+			</listPerson>
+			<listOrg>
+				<org xml:id="ASD" type="ecclesiastical" ref="https://www.wikidata.org/wiki/Q184407">
+					<orgName>Abadía de Saint-Denis</orgName>
+					<date from="1135" to="1789"/>
+				</org>
+				<org xml:id="CF" type="royal crown" ref="https://www.wikidata.org/wiki/Q79868">
+					<orgName>Corona francesa</orgName>
+					<date from="0481" to="1870"/>
+				</org>
+				<org xml:id="DMrv" type="royal crown" subtype="dinasty" ref="https://www.wikidata.org/wiki/Q59488">
+					<orgName>Dinastía Merovingia</orgName>
+					<date notBefore="0450" notAfter="0751"/>
+				</org>
+				<org xml:id="DCrl" type="royal crown" subtype="dinasty" ref="https://www.wikidata.org/wiki/Q133602">
+					<orgName>Dinastía Carolingia</orgName>
+					<date from="0751" to="0987"/>
+				</org>
+				<org xml:id="DCpt" type="royal crown" subtype="dinasty" ref="https://www.wikidata.org/wiki/Q133602">
+					<orgName>Dinastía de los Capeto</orgName>
+					<date from="0987" to="1328"/>
+				</org>
+				<org xml:id="DCrl" type="royal crown" subtype="dinasty" ref="https://www.wikidata.org/wiki/Q133602">
+					<orgName>Dinastía Carolingia</orgName>
+					<date from="0751" to="0987"/>
+				</org>
+				<org xml:id="CTry" type="royal crown" ref="https://en.wikipedia.org/wiki/Category:Mythological_kings_of_Troy">
+					<orgName>Corona de Troya</orgName>
+					<date type="relative">Se asume que la Corona troyana termina con el fin de la guerra de Troya. Nadie pertenece a la organización más que Príamo y los príncipes</date>
+				</org>
+				<org xml:id="ICtl" type="ecclesiastical" ref="https://www.wikidata.org/wiki/Q9592">
+					<orgName>Iglesia católica</orgName>
+					<date notBefore="0100"/>
+				</org>
+			</listOrg>
+		</particDesc>
+		<settingDesc>
+			<listPlace>
+				<place xml:id="Fr" type="nation" ref="https://www.wikidata.org/wiki/Q142">
+					<placeName>Francia</placeName>
+					<country key="FR">Francia</country>
+					<location><geo>46, 2</geo></location>
+				</place>
+				<place xml:id="SD" type="city" ref="https://www.wikidata.org/wiki/Q160506">
+					<placeName>Saint-Denis</placeName>
+					<region type="département" key="FR-93">Seine-Saint-Denis</region>
+					<region type="région" key="FR-IDF">Île-de-France</region>
+					<country key="FR">Francia</country>
+					<location><geo>48.93564, 2.35387</geo></location>
+				</place>
+				<place xml:id="Try" type="city" ref="https://www.wikidata.org/wiki/Q22647">
+					<placeName>Troya</placeName>
+					<region type="provincia" key="TR-17">Çanakkale</region>
+					<country key="TR">Turquía</country>
+					<location><geo>39.9575, 26.238889</geo></location>
+				</place>
+				<place xml:id="Prs" type="city" ref="https://www.wikidata.org/wiki/Q90">
+					<placeName>París</placeName>
+					<region type="département" key="FR-75C">Paris</region>
+					<region type="région" key="FR-IDF">Île-de-France</region>
+					<country key="FR">Francia</country>
+					<location><geo>48.85341, 2.3488</geo></location>
+				</place>
+				<place xml:id="Gr" type="nation" ref="https://www.wikidata.org/wiki/Q41">
+					<placeName>Grecia</placeName>
+					<country key="GR">Grecia</country>
+					<location><geo>39, 22</geo></location>
+				</place>
+				<place xml:id="Ath" type="city" ref="https://www.wikidata.org/wiki/Q1524">
+					<placeName>Atenas</placeName>
+					<region type="periferia" key="GR-I">Ática</region>
+					<country key="GR">Grecia</country>
+					<location><geo>37.98376, 23.72784</geo></location>
+				</place>
+				<place xml:id="Roma" type="city" ref="https://www.wikidata.org/wiki/Q220">
+					<placeName>Roma</placeName>
+					<region type="città metropolitana" key="IT-RM">Roma</region>
+					<region type="regione" key="IT-62">Lazio</region>
+					<country key="IT">Italia</country>
+					<location><geo>41.89193, 12.51133</geo></location>
+				</place>
+				<place xml:id="Ger" type="historical region" ref="https://www.wikidata.org/wiki/Q62646">
+					<placeName>Germania</placeName>
+					<note>La región refiere a la zona de Europa central entre el Rin y el Danubio.</note>
+				</place>
+				<place xml:id="Ale" type="nation" ref="https://www.wikidata.org/wiki/Q183">
+					<placeName>Alemania</placeName>
+					<country key="DE">Alemania</country>
+					<location><geo>51, 30</geo></location>
+				</place>
+				<place xml:id="Cnstpl" type="city" ref="https://www.wikidata.org/wiki/Q16869">
+					<placeName>Constantinopla</placeName>
+					<addName>Estambul</addName>
+					<region type="provincia" key="TR-34">Estambul</region>
+					<country key="TR">Turquía</country>
+					<location><geo>41.01384, 28.94966</geo></location>
+				</place>
+				<place xml:id="Prso" type="figurative" ref="https://www.wikidata.org/wiki/Q3363340">
+					<placeName>El paraíso</placeName>
+				</place>
+				<place xml:id="Prgtr" type="figurative" ref="https://www.wikidata.org/wiki/Q566">
+					<placeName>El purgatorio</placeName>
+				</place>
+				<place xml:id="Brgn" type="ancient kingdom" ref="https://www.wikidata.org/wiki/Q91329095">
+					<placeName>Reino de los burgundios</placeName>
+					<region type="région" key="FR-ARA">Auvernia-Ródano-Alpes</region>
+					<country key="FR">Francia</country>
+					<location><geo>45.6999388, 4.8000001</geo></location>
+				</place>
+				<place xml:id="Sssn" type="city" ref="https://www.wikidata.org/wiki/Q167152">
+					<placeName>Soissons</placeName>
+					<region type="département" key="FR-02">Aisne</region>
+					<region type="région" key="FR-HDF">Alta Francia</region>
+					<country key="FR">Francia</country>
+					<location><geo>49.38167, 3.32361</geo></location>
+				</place>
+				<place xml:id="Crtg" type="historical city" ref="https://www.wikidata.org/wiki/Q6343">
+					<placeName>Cartago</placeName>
+					<region type="gouvernorat" key="TN-11">Túnez</region>
+					<country key="TN">Túnez</country>
+					<location><geo>36.86667, 10.33333</geo></location>
+				</place>
+				<place xml:id="Ita" type="nation" ref="https://www.wikidata.org/wiki/Q38">
+					<placeName>Italia</placeName>
+					<country key="IT">Italia</country>
+					<location><geo>42.83333, 12.83333</geo></location>
+				</place>
+				<place xml:id="Eng" type="nation" ref="https://www.wikidata.org/wiki/Q21">
+					<placeName>Inglaterra</placeName><placeName type="alternative">Isla de Albión</placeName><placeName type="alternative">Gran Bretaña</placeName>
+					<country key="GB">El Reino Unido de Gran Bretaña e Irlanda del Norte</country>
+					<location><geo>54.75844, -2.69531</geo></location>
+				</place>
+				<place xml:id="Crnlls" type="county" ref="https://www.wikidata.org/wiki/Q23148">
+					<placeName>Cornualles</placeName>
+					<region type="ceremonial county" key="GB-CON">Cornualles</region>
+					<region type="country" key="GB-ENG">Inglaterra</region>
+					<country key="GB">El Reino Unido de Gran Bretaña e Irlanda del Norte</country>
+					<location><geo>50.41667, -4.75</geo></location>
+				</place>
+				<place xml:id="Lndn" type="city" ref="https://www.wikidata.org/wiki/Q1148498">
+					<placeName>Trinovantum</placeName><placeName type="alternative">Londres</placeName><placeName type="alternative">Nueva Troya</placeName>
+					<region type="ceremonial county" key="GB-LND">Londres</region>
+					<region type="country" key="GB-ENG">Inglaterra</region>
+					<country key="GB">El Reino Unido de Gran Bretaña e Irlanda del Norte</country>
+					<location><geo>51.50853, -0.12574</geo></location>
+					<trait><p>Fundada, según el texto, por <persName ref="#Brut">Bruto de Troya</persName></p></trait>
+				</place>
+				<place xml:id="Anglia" type="historical region" ref="https://www.wikidata.org/wiki/Q506043">
+					<placeName>Anglia</placeName><placeName type="alternative">Soissoigne</placeName>
+					<region type="state" key="DE-SH">Schleswig-Holstein</region>
+					<country key="DE">Alemania</country>
+					<location><geo>54.66733239665819, 9.667012176650463</geo></location>
+					<trait><p>Da nombre a <placeName ref="#Eng">Inglaterra</placeName></p></trait>
+				</place>
+				<place xml:id="Trc" type="historical region" ref="https://www.wikidata.org/wiki/Q41741">
+					<placeName>Tracia</placeName>
+					<country key="BG">Bulgaria</country><country key="GR">Grecia</country><country key="TR">Turquía</country>
+					<location><geo>41.33333, 26.75</geo></location>
+				</place>
+				<place xml:id="Dnb" type="river" ref="https://www.wikidata.org/wiki/Q1653">
+					<placeName>Danubio</placeName>
+					<country key="DE">Alemania</country><country key="AT">Austria</country><country key="BG">Bulgaria</country><country key="HR">Croacia</country><country key="SK">Eslovaquia</country><country key="HU">Hungría</country><country key="MD">Moldavia</country><country key="RO">Rumanía</country><country key="RS">Serbia</country><country key="UA">Ucrania</country>
+					<location><geo>45.221944, 29.743333</geo></location>
+				</place>
+				<place xml:id="SctMn" type="historical region" ref="https://www.wikidata.org/wiki/Q1196595">
+					<placeName>Escitia Menor</placeName>
+					<country key="RO">Rumanía</country><country key="BG">Bulgaria</country>
+					<location><geo>44.45, 28.333333</geo></location>
+				</place>
+				<place xml:id="Scmbr" type="city">
+					<placeName>Sicambria</placeName>
+					<country key="DE">Alemania</country>
+					<location><geo>50.015343, 8.112072</geo></location>
+				</place>
+			</listPlace>
+		</settingDesc>
+	  </profileDesc>
+	  <encodingDesc>
+		<projectDesc>
+			<p>Este texto se ha creado como trabajo de curso para la asignatura <title ref="https://www.uniovi.es/estudia/grados/humanidades/historia/-/fof/asignatura/GHISTO01-4-005">Tecnologías de la Información y la Comunicación Aplicadas a la Historia</title> del Grado en Historia de la Universidad de Oviedo.</p>
+		</projectDesc>
+		<editorialDecl><p>Transcripción efectuada a partir de la reproducción digital del fragmento. Se han intentado respetar las normas de la Comission Internationale de Diplomatique, actualizando al francés moderno normas de acentuación y puntuación. Así, en el caso de las palabras que utilizan la diéresis en francés, que marcan un diptongo en la actualidad, se han mantenido también: «païs». De hecho, esta última es una forma arcaica del actual «pays», al que se tuvo que aplicar la diéresis para marcar el diptongo que con «y» es evidente. El acento circunflejo es uno irregular, que marca vocales a las que antiguamente seguía una «s». Tal es el caso de «maître», que en el texto aparece como «maistre». En los casos en los que conserva la «s», se ha optado por no añadir el acento circunflejo, siendo inútil su utilización. Sin embargo, en palabras que ya en el texto han perdido la «s», tales como «îlle» —actualmente «île»— mantengo el acento circunflejo. Durante la edición se ha trabajado sobre un fichero en el que se han respetado los cambios de página, columna y línea, indicándose todos ellos. Al finalizar la edición, se han empleado las funciones de «buscar y reemplazar» de Notepad++ para eliminar esto y presentar una versión del fichero más legible. El desarrollo de abreviaturas se hace explícito en cada caso, optándose por modernizar la palabra si cabe. Así, una «q» abreviada y seguida de palabra por vocal no se desarrolla como «que», sino como «qu’». Las coordenadas se expresan en formato decimal.<!-- El idioma, el hacer una edición de un documento en francés como parte de un proyecto en español, ha causado grandes dudas a lo largo del mismo, y así debería quedar reflejado en el ensayo adjunto. En algún elemento corto de la ficha técnica se ha optado por la duplicidad de idiomas, pero en la mayoría de ellos se ha utilizado exclusivamente español; la transcripción se ha mantenido íntegramente en francés, respetando en la medida de lo posible acentuación y puntuación del francés contemporáneo. En cuanto a si mantener la disposición original del texto (en columnas y respetando las líneas) o, como recomienda la CID, adaptarlo a un texto a línea tirada, más legible, la decisión es un tanto compleja. La conservación de la mayor cantidad de información original del texto, de una parte, y la legibilidad, del otro, presentan fuertes argumentos tanto a favor como en contra de ello. Los atributos se han mantenido en todo momento en inglés salvo cuando se tratara de atributos propios unívocamente a un país de habla no anglófona, como en el caso de los "départements" franceses o las "provincias" españolas, siguiendo la recomendación de las normas TEI P5. --></p></editorialDecl>
+	  </encodingDesc>
+  </teiHeader>
+  <text>
+	  <front>
+		<titlePage>
+			<docTitle>
+				<head rend="red ink"><titlePart type="main"><pb n="1r"/><cb n="1"/><l n="1"/><hi>C</hi>e sont les Croniques de France</titlePart><titlePart type="desc"> selon ce 
+				<l n="2"/>qu'il sont composées en <orgName ref="#ASD" type="ecclesiastical">l'église de <placeName ref="#SD" type="city">Saint 
+				<l n="3"/>Denis</placeName></orgName> en <!-- como norma general para las referencias, las letras que representan la inicial de palabra va capitalizada, las letras significativas de una palabra, en minúscula --><placeName ref="#Fr" type="nation">France</placeName><!-- hay un separador, como queda descrito en decodesc --></titlePart></head>
+			</docTitle>
+		</titlePage>
+	  </front>
+      <body>
+        <div type="prologue" n="1">
+            <p>
+				<!-- utilizo <ex> en vez de <reg>, como sugerían las normas de la práctica -->
+				<l n="4"/><hi rend="init5blue">C</hi>il qui ceste euvre co<ex>m</ex>mence, 
+				<l n="5"/>à touz ceulz qui ceste histoi
+				<l n="6" break="no"/>re liront, salut en <persName type="divine" ref="#Dios">N<ex>ost</ex>re Seig<ex>neur</ex></persName>. 
+				<l n="7"/><hi>P</hi>our ce que plu<damage type="modern drilling">ss</damage><ex>ieur</ex>s gens 
+				<l n="8"/>doubtoient de la généalogi
+				<l n="9" break="no"/>e des <orgName ref="#CF" type="royal crown">roys de <placeName ref="#Fr">France</placeName></orgName><!-- los reyes son una institución: la Corona francesa -->, de quel original <ex>et</ex> de 
+				<l n="10"/>quel lignniée il sont déscenduz, en prist il 
+				<l n="11"/>ceste euvre à faire par le com<ex>m</ex>e<ex>n</ex>dem<ex>en</ex>t de <persName ref="#LIX" type="king">tel 
+				<l n="12"/>hom<ex>m</ex>e</persName><!-- tengo dudas, pero creo que aquí du Trévou se refiere a Luis IX -->que il n'e<ex>n</ex> pot ne ne dut refuser. 
+				<l n="13"/><hi>M</hi>ais pour ce que sa lettreure <ex>et</ex> la si<ex>m</ex>ples
+				<l n="14" break="no"/>ce de son engin ne souffist pas à traitier 
+				<l n="15"/>de euvre de si haute hystoire, il prie au <ex>com</ex>
+				<l n="16" break="no"/>m<ex>en</ex>cem<ex>en</ex>t à touz ceulz qui ce livre liront q<ex>ue</ex> 
+				<l n="17"/>ce que il y trouvero<ex>n</ex>t à blasmer<!-- conserva la s, por lo que no lleva circunflejo: "blâmer" --> que il le 
+				<l n="18"/>seuffre<ex>n</ex>t <unclear>pacianm<ex>e</ex>nt</unclear> sanz vilaine <unclear>rép<ex>ré</ex>he<ex>n</ex>sio<ex>n</ex></unclear>, 
+				<l n="19"/><hi>c</hi>ar, si <ex>com</ex>me il a dit devant, les déffauz de 
+				<l n="20"/>lettreure <ex>et</ex> d'éloque<ex>n</ex>ce qui en li sont <ex>et</ex> la si<ex>m</ex>
+				<l n="21" break="no"/>plesce de son engin le doivent excuser p<ex>ar</ex> 
+				<l n="22"/>rayson. <hi>S</hi>i sachiez tuit qu'il traitera au 
+				<l n="23"/>plus briefm<ex>en</ex>t qu'il pourra, car longue <unclear>p<ex>ar</ex>o
+				<l n="24" break="no"/>le</unclear> <ex>et</ex> confuse plait petit à ceulz qu<damage type="modern drilling">i</damage> l'éscou
+				<l n="25" break="no"/>tent. <hi>M</hi>ais la brief parole <ex>et</ex> <unclear>ap<ex>per</ex>tem<ex>en</ex>t</unclear> dite 
+				<l n="26"/>plait aus entendanz. Si sera ceste hystoire 
+				<l n="27"/>déscrite selon la letre <ex>et</ex> l'ordena<ex>n</ex>ce des croni
+				<l n="28" break="no"/>q<ex>ue</ex>s de <orgName ref="#ASD">l'abbaie de <placeName ref="#SD">Saint Denis</placeName></orgName> en <placeName ref="#Fr">France</placeName>, où 
+				<l n="29"/>les hystoires et les faiz de touz <orgName ref="#CF">les roys</orgName> 
+				<l n="30"/>sont éscrips, car là doit on prendre <ex>et</ex> pui
+				<l n="31" break="no"/>sier l'original de l'ystoire. <hi>E</hi>t se-il puet tro
+				<l n="32" break="no"/>ver es croniq<ex>ue</ex>s d'autres églises, chose q<ex>u</ex><add place="above">i</add> vail
+				<l n="33" break="no"/>le à la besoigne il y pourra b<ex>ie</ex>n aiouster <!-- podríamos considerar que tiene valor consonántico: "ajouster", pero mantengo aquí y de ahora en adelante la grafía original -->
+				<l n="34"/>selo<ex>n</ex> la pure v<ex>ér</ex>ité de la lettre, sanz rie<ex>n</ex>s oster, 
+				<l n="35"/>se ce n'est chose qui face confusion <ex>et</ex> sanz 
+				<l n="36"/>rie<ex>n</ex>s aiouster<!-- j --> d'autre matière, se ce ne sont 
+				<l n="37"/>aucunes i<ex>n</ex>cidences. <hi>E</hi>t pour ce que on ne 
+				<l n="38"/>le <unclear>tie<ex>n</ex>gne</unclear> à me<ex>n</ex>congier <!-- aquí la c original del texto tiene un valor [s], como una ç, pero mantengo la grafía original -->de ce qu'il dira, il p<ex>r</ex><add place="above">i</add>e 
+				<l n="39"/>à touz ceulz qui ceste histoire liront q<ex>u'</ex>il 
+				<l n="40"/>regarde<ex>n</ex>t aus croniq<ex>ue</ex>s de <orgName ref="#ASD"><placeName ref="#SD">Saint Denis</placeName></orgName>. Là 
+				<l n="41"/>pourra on ésprouver par la lettre se-il dit 
+				<l n="42"/>voir ou me<ex>n</ex>conge.<!-- aquí sucede lo mismo: "mençonge" --> <hi>S</hi>i puet chascun sa
+				<l n="43" break="no"/>voir que ceste euvre est profitable à fai
+				<l n="44" break="no"/>re pour faire cognoistre aus vaillans 
+				<l n="45"/>gens la geste des <orgName ref="#CF">roys</orgName>, et pour monstrer 
+				<l n="46"/>à touz dont vient la hautesce du mo<ex>n</ex>de, 
+				<l n="47"/>car ce est exemple de bonne vie mener, <!-- aquí hay un símbolo "!" que se repite unas cuantas veces y que parece solamente ocupar un espacio vacío al final de la línea, no sé si se debe indicar -->
+				<l n="48"/>meismem<ex>en</ex>t<!-- conserva s --> aus <orgName ref="#CF">roys <ex>et</ex> aus p<ex>r</ex><add place="above">i</add>nces</orgName> q<ex>u</ex><add place="above">i</add> ont 
+				<l n="49"/>terres à gouv<ex>er</ex>ner, <hi>c</hi>ar I vailla<ex>n</ex>t mais
+				<l n="50" break="no"/>tre<!-- conserva s. Adicionalmente, no queda claro si se dice en sentido literal (si se refiere al maestro supervisor de Trévou) o en sentido figurado, y por tanto no lo añado como persona --> dit q<ex>ue</ex> ceste histoire est mirouer de vie. 
+				<cb n="2"/><l n="51"/><hi>C</hi>i pourra chascun trouver bien et mal, 
+				<l n="52"/>bel <supplied reason="omitted">et</supplied> lait, sens <ex>et</ex> folie, et faire son preu de 
+				<l n="53"/>tout p<ex>ar</ex> les exemples de l'istoire. Et de toutes 
+				<l n="54"/>les choses que on lira en ce livre se elles 
+				<l n="55"/>ne p<ex>ro</ex>fitent toutes, toutes voies la plus 
+				<l n="56"/>grant p<ex>ar</ex>tie en puet aidier. B<ex>ie</ex>n sachent q<ex>u'</ex>
+				<l n="57" break="no"/>il n'i a riens du sien aiouste<!-- j -->, ains est <!-- símbolo "!" -->
+				<l n="58"/>tout des anciens aucteurs qui traitière<ex>n</ex>t 
+				<l n="59"/><ex>et</ex> compilèrent les histoires selon les faiz 
+				<l n="60"/>des <orgName ref="#CF">roys</orgName> et de par eulz dist il ce qu'il p<ex>ar</ex>ole 
+				<l n="61"/><ex>et</ex> la voiz est leur meismes<!-- conserva s --> langue. Pour 
+				<l n="62"/>ce prie à touz ceulz qui ce livre liront q<ex>u'</ex>
+				<l n="63" break="no"/>il ne le tiegnent à présompcieus de ce q<ex>u'</ex>
+				<l n="64" break="no"/>il à ceste euvre emprise pour ce se il est 
+				<l n="65"/>de petit à faire. Et pour ce que <num type="cardinal" value="3">III</num> g<ex>é</ex>n<ex>ér</ex>acio<ex>n</ex>s 
+				<l n="66"/>ont esté<!-- conserva s --> des <orgName ref="#CF">roys de <placeName ref="#Fr">France</placeName></orgName> puis q<ex>u'</ex>il <ex>com</ex>me<ex>n</ex>
+				<l n="67" break="no"/>cière<ex>n</ex>t à estre, sera ceste histoire devisée en 
+				<l n="68"/><num type="cardinal" value="3">III</num> livres p<ex>r</ex><add place="above">i</add>ncipaux : <hi>o</hi>ù <num type="ordinal" value="1">p<ex>re</ex>m<ex>i</ex>er</num> p<ex>ar</ex>lera de 
+				<l n="69"/>la <orgName ref="#DMrv" type="royal crown" subtype="dinasty">généalogie Mérovée</orgName>, où <num type="ordinal" value="2">secont</num>, de la <orgName ref="#DCrl" type="royal crown" subtype="dinasty">gé
+				<l n="70" break="no"/>néracion Pepin</orgName>, <hi>e</hi>t où <num type="ordinal" value="3">tiers</num>, de la <orgName ref="#DCpt" type="royal crown" subtype="dinasty">g<ex>é</ex>n<ex>ér</ex>acio<ex>n</ex> 
+				<l n="71"/>Hue Chapet</orgName>. Si sera chascun livre sousdevi
+				<l n="72" break="no"/>sé en divers livres, selon les vies et les 
+				<l n="73"/>faiz de div<ex>er</ex>s <orgName ref="#CF">roys</orgName>. <hi>O</hi>rdené seront par cha
+				<l n="74" break="no"/>pitres pour plus plainem<ex>en</ex>t entendre la 
+				<l n="75"/>matière <ex>et</ex> sanz confusion. Le <ex>com</ex>m<ex>en</ex>cem<ex>en</ex>t de 
+				<l n="76"/>ceste h<subst><add place="overstrike" hand="#black">i</add></subst>stoire sera pris à la haute lignie 
+				<l n="77"/>des <orgName ref="#CTry" type="royal crown">Troiens</orgName>, dont elle est descendue par lo<ex>n</ex>
+				<l n="78" break="no"/>gue suscession. <!-- separador -->
+				<l n="79"/><hi rend="init3red">C</hi>ertaine chose est donques que <orgName ref="#CF">les 
+				<l n="80"/>roys de France</orgName>, par les quiex le 
+				<l n="81"/>royaume est glorieus <ex>et</ex> reno<ex>m</ex>mé<unclear>s</unclear>, 
+				<l n="82"/>descendirent <damage>de l</damage>a <orgName ref="#CTry">noble ligniée de <placeName ref="#Try" type="city">Troie</placeName></orgName>. 
+				<l n="83"/>Glorieus fure<ex>n</ex>t en victoire, nobles en re
+				<l n="84" break="no"/>no<ex>m</ex>mée en <rs ref="#Crst" type="religion">la foy crestienne</rs>, ferve<ex>n</ex>t <ex>et</ex> dévot. 
+				<l n="85"/><hi>E</hi>t ià<!-- j, utilizo tilde como en el posterior "déjà" --> soit ce que <placeName ref="#Try">celle nascion</placeName> soit fort <ex>et</ex> 
+				<l n="86"/>fière <ex>et</ex> cruel <subst><add place="overstrike" hand="#black">co<ex>n</ex>tre</add></subst> ses anémis, selon ce q<ex>ue</ex> 
+				<l n="87"/>le no<ex>m</ex> segnefie, si est-elle mis<ex>er</ex>icors <ex>et</ex> débo<ex>n</ex>
+				<l n="88" break="no"/>naire vers ses sougiez et vers ceulz que 
+				<l n="89"/>elle sousmet par bataille. <hi>C</hi>ar il ne se <ex>com</ex>
+				<l n="90" break="no"/>batoie<ex>n</ex>t pas anciennem<ex>en</ex>t tant pour acrois
+				<l n="91" break="no"/>tre leur royaume <ex>et</ex> leur seigneurie <ex>com</ex>me 
+				<l n="92"/>il faisoie<ex>n</ex>t pour aquerre la gloire de vic
+				<l n="93" break="no"/>toire. Si ne fu pas sanz raison dame et 
+				<l n="94"/>reno<ex>m</ex>mée sur autres nascions, car <placeName ref="#Try">elle</placeName> 
+				<l n="95"/>ne souffit pas longuem<ex>en</ex>t la <unclear>s<ex>er</ex></unclear>vitute de 
+				<l n="96"/>ydolâtrie<!-- ya ha perdido la s --> ne de méscréa<ex>n</ex>dise. Puis q<ex>u'</ex>elle oy 
+				<l n="97"/><rs ref="#Crst">la sain<ex>c</ex>te p<ex>ré</ex>dicatio<ex>n</ex> de vérité</rs>, tost obéi à <persName ref="#Dios">so<ex>n</ex> 
+				<l n="98"/>créateur</persName>, qu<ex>an</ex>t elle oy ses messages à <persName ref="#Dios">Dieu</persName>, 
+				<l n="99"/>offri <ex>et</ex> sacrefia les p<ex>ri</ex>mices <ex>et</ex> le <ex>com</ex>m<ex>en</ex>ceme<ex>n</ex>t 
+				<l n="100"/>de so<ex>n</ex> règne. <hi>E</hi>n si grant amour <ex>et</ex> en si 
+				<pb n="1v"/><cb n="3"/><l n="101"/>grant dévocion recut<!-- valor [s] --> <rs ref="#Crst">la foy crestienne</rs> 
+				<l n="102"/>q<ex>ue</ex>, puis que celle heure que elle obéi à 
+				<l n="103"/><persName ref="#Dios">son sauveour</persName>, elle désiroit plus le mou
+				<l n="104" break="no"/>tepliem<ex>en</ex>t de <rs ref="#Crst">la foy</rs> que elle ne faisoit 
+				<l n="105"/>l'acroissem<ex>en</ex>t de la seignourie t<ex>er</ex>rienne. 
+				<l n="106"/><hi>S</hi>i li a <persName ref="#Dios"><unclear>n<ex>ost</ex>re<ex>s</ex></unclear> sires</persName> donné p<ex>ar</ex> la grâce une 
+				<l n="107"/>p<ex>ré</ex>rogative <ex>et</ex> un ava<ex>n</ex>tage sus toutes <!-- signo "!" -->
+				<l n="108"/>autres t<ex>er</ex>res <ex>et</ex> sur toutes autres nascio<ex>n</ex>s, 
+				<l n="109"/><hi>c</hi>ar onq<ex>ue</ex>s puis que <placeName ref="#Try">elle</placeName> fu conv<ex>er</ex>tie <ex>et</ex> 
+				<l n="110"/>elle <ex>co</ex>m<ex>m</ex>e<ex>n</ex>ca <!-- valor [s] -->à s<ex>er</ex>vir à <persName ref="#Dios">son créateur</persName>, ne fu 
+				<l n="111"/>q<ex>ue</ex> <rs ref="#Crst">la foy</rs> ne fust plust <unclear>fervenme<ex>n</ex>t</unclear> <ex>et</ex> plus 
+				<l n="112"/>droitem<ex>en</ex>t tenue q<ex>ue</ex> en nulle autre terre. 
+				<l n="113"/>P<ex>ar</ex> <placeName ref="#Try">elle</placeName> est moutepliée, p<ex>ar</ex> <placeName ref="#Try">elle</placeName> est soustenu 
+				<l n="114"/>e<ex>t</ex> p<ex>ar</ex> <placeName ref="#Try">elle</placeName> est-<rs ref="#Crst">elle</rs> deffendue. <hi>S</hi>e nulle 
+				<l n="115"/>autre nascion fait à <orgName ref="#ICtl" type="ecclesiastical">sainte Église</orgName> force 
+				<l n="116"/>ne grief, en France en vient faire sa com
+				<l n="117" break="no"/>plainte, en <placeName ref="#Fr">France</placeName> vient à refui et à 
+				<l n="118"/>secours. <hi>D</hi>e <placeName ref="#Fr">France</placeName> vient l'espée <ex>et</ex> le glai
+				<l n="119" break="no"/>ve p<ex>ar</ex> quoy <orgName ref="#ICtl">elle</orgName> est vengiée, et <placeName ref="#Fr">France</placeName> co<ex>m</ex>
+				<l n="120" break="no"/>me loyal fille secourt sa mère à touz be
+				<l n="121" break="no"/>soins. <hi>S</hi>i à touz iours<!-- j --> la sele mise po<ex>ur</ex> 
+				<l n="122"/>li aidier <ex>et</ex> secourre. <hi>S</hi>e <rs ref="#Crst">la foy</rs> donq<ex>ue</ex>s 
+				<l n="123"/>y est plus fervenm<ex>en</ex>t <ex>et</ex> plus droiteme<ex>n</ex>t 
+				<l n="124"/>tenue, ce n'est mie sanz rayson. <hi>L</hi>a <num type="ordinal" value="1">pre
+				<l n="125" break="no"/>mière</num> si est que <persName type="ecclesiastical" ref="#SDP">mon seig<ex>neur</ex> S<ex>aint</ex> Denis le 
+				<l n="126"/>Glorie<ex>us</ex>, m<ex>a</ex>rtir <ex>et</ex> apostre de <placeName ref="#Fr">France</placeName></persName>, p<ex>ar</ex> q<ex>u</ex><add place="above">i</add> mis
+				<l n="127" break="no"/>tère <placeName ref="#Fr">elle</placeName> fu p<ex>re</ex>mièrem<ex>en</ex>t <ex>con</ex>v<ex>er</ex>tie, <orgName ref="#ICtl">la</orgName> soustie<ex>n</ex>t 
+				<l n="128"/><ex>et</ex> garantist <ex>com</ex>me sa p<ex>ro</ex>pre partie, qui, pour 
+				<l n="129"/>entroduire en <rs ref="#Crst">la foy</rs> li fu livrée. <hi>L</hi>a <num type="ordinal" value="2">se
+				<l n="130" break="no"/>co<ex>n</ex>de</num> rayson si puet estre telle, car la fo<ex>n</ex>
+				<l n="131" break="no"/>taine de clergie, p<ex>ar</ex> qui <orgName ref="#ICtl">sainte Église</orgName> est 
+				<l n="132"/>soustenue <ex>et</ex> enluminée, flourist à <placeName type="city" ref="#Prs">Pa
+				<l n="133" break="no"/>ris</placeName>. Si, <ex>com</ex>me aucuns veulent dire, <orgName ref="#ICtl">clergie</orgName> 
+				<l n="134"/><ex>et</ex> <orgName ref="#CF">ch<ex>eva</ex>l<ex>e</ex>rie</orgName> sont touz iours<!-- j --> si d'u<ex>n</ex> acort q<ex>ue</ex> 
+				<l n="135"/>l'une ne puet sanz l'autre. Touz iours<!-- j --> 
+				<l n="136"/>se sont ensemble tenues et encore <persName ref="#Dios">Diex</persName> 
+				<l n="137"/>m<ex>er</ex>ci ne se dép<ex>ar</ex>tent elles mie. <hi>E</hi>n <num type="cardinal" value="3">III</num> régi
+				<l n="138" brake="no"/>ons ont habité en divers temps. <hi>E</hi>n 
+				<l n="139"/><placeName type="nation" ref="#Gr">Grèce</placeName> régnèrent p<ex>re</ex>mièrem<ex>en</ex>t, car en <placeName type="city" ref="#Ath">la 
+				<l n="140"/>cité d'Athènes</placeName> fu iadis<!-- j --> le puis de philo
+				<l n="141" break="no"/>sophie <ex>et</ex> en <placeName ref="#Gr">Grèce</placeName> la fleur de ch<ex>eva</ex>l<ex>e</ex>rie. <hi>D</hi>e 
+				<l n="142"/><placeName ref="#Gr">Grèce</placeName> vindrent puis à <placeName type="city" ref="#Roma">Ro<ex>m</ex>me</placeName>, de <placeName ref="#Roma">Rome</placeName> 
+				<l n="143"/>sont en <placeName ref="#Fr">France</placeName> venus. <persName ref="#Dios">Diex</persName> p<ex>ar</ex> sa grâce 
+				<l n="144"/>vueulle q<ex>ue</ex>, longuem<ex>en</ex>t, y soient mai<ex>n</ex>tenues 
+				<l n="145"/>à la loengé <ex>et</ex> à la gloire de son no<ex>m</ex>, <hi>q</hi>ui 
+				<l n="146"/>vit <ex>et</ex> règne p<ex>ar</ex> touz les siècles des siècles. 
+				<l n="147"/>Amen.<!-- separador -->
+			</p>
+        </div>
+		<div type="table of contents" n="1">
+			<p>
+				<l n="148"/><head rend="red ink"><hi>C</hi>i comme<ex>n</ex>cent les chapitres du <num type="ordinal" value="1">pr<ex>e</ex>mier</num> 
+				<l n="149"/>livre des Croniques de France<!-- separador --><!-- sigue una línea en blanco --></head>
+				<cb n="4"/><l n="151"/><hi rend="init7red">L</hi>e <num type="ordinal" value="1">p<ex>re</ex>mier</num> chapitre p<ex>ar</ex>ole co<ex>m</ex>
+				<l n="152" break="no"/>me<ex>n</ex>t <orgName ref="#CF">Francois</orgName><!-- valor [s] --> descendirent 
+				<l n="153"/>des <orgName ref="#CTry">Troiens</orgName>. <!-- separador -->
+				<l n="154"/><hi rend="init1blue">L</hi>e <num type="ordinal" value="2">secont</num>, de div<ex>er</ex>ses opi
+				<l n="155" break="no"/>nions pour quoy il furent 
+				<l n="156"/>appelléz <orgName ref="#CF">Francois</orgName>. <!-- separador -->
+				<l n="157"/><hi rend="init1red">L</hi>e <num type="ordinal" value="3">ti<damage type="modern drilling">e</damage>rs</num>, <ex>com</ex>me<ex>n</ex>t il <ex>con</ex>quistient <placeName type="nation" ref="#Ale">Alemai
+				<l n="158" break="no"/>gne</placeName> <ex>et</ex> <placeName type="historical region" ref="#Ger">G<ex>er</ex>manie</placeName>, et <ex>com</ex>ment il desconfirent 
+				<l n="159"/>les <rs type="demonym" ref="#Rmns">romains</rs>. <!-- separador -->
+				<l n="160"/><hi rend="init1blue">L</hi>e <num type="ordinal" value="4">IIII</num>, co<ex>m</ex>ment et quant <placeName ref="#Prs">la cité de 
+				<l n="161"/>Paris</placeName> fu fondée <ex>et</ex> du <persName type="king" ref="#Frm"><num type="ordinal" value="1">p<ex>re</ex>mier</num> roy de <placeName ref="#Fr">Fra<ex>n</ex>ce</placeName></persName>. 
+				<l n="162"/><hi rend="init1red">L</hi>e <num type="ordinal" value="5">V</num> parole du <persName type="king" ref="#Cld"><num type="ordinal" value="2">secont</num> roy, qui ot no<ex>m</ex> 
+				<l n="163"/>Clodio</persName>. <!-- separador -->
+				<l n="164"/><hi rend="init1blue">L</hi>e <num type="ordinal" value="6">VI</num>, <unclear>du</unclear> <persName type="king" ref="#Mero"><num type="ordinal" value="3">tiers</num> roy, qui ot no<ex>m</ex> Méro
+				<l n="165" break="no"/>vées</persName>, duquel la <num type="ordinal" value="1">p<ex>re</ex>mière</num> gén<ex>ér</ex>acion issi. 
+				<l n="166"/><hi rend="init1red">L</hi>e <num type="ordinal" value="7">VII</num>, du <persName type="king" ref="#Chld"><num type="ordinal" value="4">quart</num> roy, qui ot no<ex>m</ex> Chil
+				<l n="167" break="no"/>déric</persName>, <ex>com</ex>ment les barons le châcière<ex>n</ex>t<!-- s perdida --> hors 
+				<l n="168"/>du royaume pour sa luxure. <!-- separador -->
+				<l n="169"/><hi rend="init1blue">L</hi>e <num type="ordinal" value="8">VIII</num>, <ex>com</ex>ment firent roy <persName type="king" ref="#Gln">Gilon le 
+				<l n="170"/>Romain</persName>, après ce qu'il orent châcié le roi 
+				<l n="171"/><persName ref="#Chld">Childéric</persName>. <!-- separador -->
+				<l n="172"/><hi rend="init1red">L</hi>e <num type="ordinal" value="9">IX</num>, co<ex>m</ex>ment <persName ref="#Chld">Childéric</persName> fu rapelé et 
+				<l n="173"/><persName ref="#Gln">Gilons</persName> fu bouté hors. <!-- separador -->
+				<l n="174"/><hi rend="init1blue">L</hi>e <damage type="modern drilling"><num type="ordinal" value="10">X</num></damage>, p<ex>ar</ex>ole des exposicions des <num type="ordinal" value="3">III</num> avi
+				<l n="175" break="no"/>sions le roy <persName ref="#Chld">Childéric</persName>, et <ex>com</ex>ment <persName type="queen" ref="#Bsn">la roy
+				<l n="176" break="no"/>ne Basine</persName> vint à lui. <!-- separador -->
+				<l n="177"/><hi rend="init1red">L</hi>e <num type="ordinal" value="11">XI</num>, de une incidence co<ex>m</ex>ment <persName type="empereour" ref="#Jstn">l'empe<ex>re</ex>
+				<l n="178" break="no"/>our de <placeName type="city" ref="#Cnstpl"><ex>Con</ex>stantinoble</placeName></persName> envoia <persName type="empress" ref="#Thdr"><sic>Théodore</sic></persName> <ex>con</ex>
+				<l n="179" break="no"/>tre <persName type="general" ref="#Odov">Odovacre</persName> pour déffendre les <rs ref="#Rmns">Ro<ex>m</ex>mai<ex>n</ex>s</rs>. 
+				<l n="180"/><hi rend="init1blue">L</hi>e <num type="ordinal" value="12">XII</num>, co<ex>m</ex>ment celi <persName ref="#Thdr"><sic>Théodore</sic></persName> fu melles 
+				<l n="181"/>à <persName ref="#Jstn">l'empe<ex>re</ex>our</persName> <ex>et</ex> garanti de mort p<ex>ar</ex> un sie<ex>n</ex> 
+				<l n="182"/>ami qui ot no<ex>m</ex> <persName ref="#Thlm">Tholomée</persName>. <!-- separador -->
+				<l n="183"/><hi rend="init1red">L</hi>e <num type="ordinal" value="13">XIII</num>, <ex>com</ex>me<ex>n</ex>t <persName ref="#Jstn">l'empe<ex>re</ex>our</persName> manda dere
+				<l n="184" break="no"/>chief <persName type="king" ref="#Thdric">Théodoric</persName> pour li occirre, <ex>et</ex> <ex>com</ex>m<ex>en</ex>t il dé
+				<l n="185" break="no"/>moura p<ex>ar</ex> l'exem<damage type="modern drilling">p</damage>le <persName ref="#Thlm">Tholomée</persName>. <!-- separador -->
+				<l n="186"/><hi rend="init1blue">L</hi>e <num type="ordinal" value="14">XIIII</num>, <ex>com</ex>m<ex>en</ex>t <persName type="ecclesiastical" ref="#StPsc">saint Pascases</persName>, que l'en 
+				<l n="187"/>cuidoit qu'il fust en <placeName type="figurative" ref="#Prso">paradis</placeName> fu trouvez 
+				<l n="188"/>en I <placeName type="figurative" ref="#Prgtr">purgatoire</placeName>. <!-- separador -->
+				<l n="189"/><hi rend="init1red">L</hi>e <num type="ordinal" value="15">XV</num>, <ex>com</ex>ment le fort roy <persName type="king" ref="#Cldv">Clodovée</persName> 
+				<l n="190"/>fu coronné après la mort <persName ref="#Chld">son père</persName> <ex>et</ex> co<ex>m</ex>
+				<l n="191" break="no"/>ment <persName ref="#Cldv">il</persName> rendi l'orcel à <persName type="ecclesiastical" ref="#StRm">saint Remi</persName>, <ex>et</ex> puis 
+				<l n="192"/><ex>com</ex>m<ex>en</ex>t <persName ref="#Cldv">il</persName> se vencha de celi qui le <ex>con</ex>tredist. 
+				<l n="193"/><hi rend="init1blue">L</hi>e <num type="ordinal" value="16">XVI</num>, co<ex>m</ex>ment <persName ref="#Cldv">il</persName> envoia ioiaus<!-- j --> à la 
+				<l n="194"/>pucelle <persName type="queen" ref="#Crtld">Crotilde</persName> avant que il l'espousast. 
+				<l n="195"/><hi rend="init1red">L</hi>e <num type="ordinal" value="17">XVII</num>, <ex>com</ex>ment <persName ref="#Cldv">il</persName> <persName ref="#Crtld">l'</persName>envoia qu'erre en 
+				<l n="196"/><placeName type="ancient kingdom" ref="#Brgn">Bourgoigne</placeName>, et puis, <ex>com</ex>m<ex>en</ex>t il l'espousa à 
+				<l n="197"/><placeName type="city" ref="#Sssn">Soissons</placeName>. 
+				<l n="198"/><hi rend="init1blue">L</hi>e <num type="ordinal" value="18">XVIII</num>, <ex>com</ex>ment <persName ref="#Crtld">la royne Crotilde</persName> co<ex>n</ex>
+				<l n="199" break="no"/>cut <!-- valor [s] --><persName type="king" ref="#Cldmr">son <num type="ordinal" value="1">p<ex>re</ex>mier</num> enfant</persName> <ex>et</ex> <ex>com</ex>m<ex>en</ex>t le roy des
+				<l n="200" break="no"/>confit les <rs type="demonym" ref="#Almns">Alémans</rs>. <!-- separador -->
+				<pb n="2r"/><cb n="5"/><l n="201"/><hi rend="init1red">L</hi>e <num type="ordinal" value="19">XIX</num>, co<ex>m</ex>ment <ex>et</ex> par quel miracle <persName ref="#Cldv">le 
+				<l n="202"/>roy</persName> fu conv<ex>er</ex>ti à <rs ref="#Crst">la foy</rs> par la victoire q<ex>u'</ex>il 
+				<l n="203"/>ot soudainem<ex>en</ex>t. <!-- separador -->
+				<l n="204"/><hi rend="init1blue">L</hi>e <num type="ordinal" value="20">XX</num>, <ex>com</ex>ment <persName ref="#Cldv">le roy</persName> fu baptizié <ex>et</ex> <ex>com</ex>m<ex>en</ex>t 
+				<l n="205"/>il vainqui <persName type="king" ref="#Gdb">le roy Gondebaut de Bourgoig<ex>n</ex><add place="above">e</add></persName>. 
+				<l n="206"/><hi rend="init1red">L</hi>e <num type="ordinal" value="21">XXI</num>, p<ex>ar</ex>ole de la cause de la bataille 
+				<l n="207"/>que <persName ref="#Cldv">le roy</persName> fist <ex>con</ex>tre <persName type="king" ref="#Alar">le roy Ala<damage type="modern drilling">ric</damage></persName>. <!-- separador -->
+				<l n="208"/><hi rend="init1blue">L</hi>e <num type="ordinal" value="22">XXII</num>, co<ex>m</ex>ment <persName ref="#Cldv">le roy</persName> occist <persName ref="#Alar">le roy Ala
+				<l n="209" break="no"/>ric</persName> p<ex>ar</ex> son corps <ex>et</ex> <ex>com</ex>m<ex>en</ex>t  la gent fu vai<ex>n</ex>cue. 
+				<l n="210"/><hi rend="init1red">L</hi>e <num type="ordinal" value="23">XXIII</num>, co<ex>m</ex>ment <persName ref="#Cldv">le roy</persName> fu appellé <persName ref="#Cldv">Au
+				<l n="211" break="no"/>gustes</persName> <ex>et</ex> co<ex>m</ex>ment il fist occirre <persName type="king" ref="#Karar">le roy Ka
+				<l n="212" break="no"/>rariq<ex>ue</ex></persName> <ex>et</ex> vu sien filz en sa prison. <!-- separador -->
+				<l n="213"/><hi rend="init1blue">L</hi>e <num type="ordinal" value="24">XXIIII</num>, co<ex>m</ex>ment le roy fist occire <persName type="aristocrat" ref="#Kana">Ka
+				<l n="214" break="no"/>nacaire, le duc de Cambrai</persName> et I sien frè
+				<l n="215" break="no"/>re <ex>et</ex> si estoient les cousins. <!-- no estoy seguro de entender esta frase --><!-- separador -->
+				<l n="216"/><hi rend="init1red">L</hi>e <num type="ordinal" value="25">XXV</num>, p<ex>ar</ex>ole de aucunes incidences qui 
+				<l n="217"/>en ce temps avindrent, et de la mort <persName ref="#Cldv">le 
+				<l n="218"/>fort roy Clodovée</persName>.<!-- separador -->
+				<!-- siguen líneas en blanco hasta acabar el folio -->
+			</p>
+		</div>
+		<div type="chapter" n="1">
+			<p>
+				<!-- siguen dos folios en blanco y 3v está ocupado enteramente por la miniatura descrita en decodesc -->
+				<!-- tal y como se describe en layoutdesc, no se indica aquí una nueva columna de forma intencional. Esta es la única línea del fragmento editado que está escrito a línea tirada -->
+				<pb n="4r"/><l n="219"/><head rend="red ink"><hi>L</hi>e <num type="ordinal" value="1">p<ex>re</ex>mier</num> chapitre parle co<ex>m</ex>ment <orgName ref="#CF">Fra<ex>n</ex>cois</orgName> <!-- valor [s] -->descendirent des <orgName ref="#CTry">Troiens</orgName><!-- separador --></head>
+				<cb n="6"/><l n="220"/><date when="-1157" type="AUC"><hi rend="init5blue">Q</hi><hi>u</hi>atre cens <ex>et</ex> quatre ans 
+				<l n="221"/>avant q<ex>ue</ex> Rome fu fondée</date>, 
+				<l n="222"/>régnoit <persName type="mythical king" ref="#Prm">Priant</persName> en <placeName ref="#Try">Troie la 
+				<l n="223"/>Grant</placeName>. <hi>I</hi>l envoia <persName type="mythical prince" ref="#PrsT">Paris</persName> <!-- símbolo "!" -->
+				<l n="224"/>l'aisné de ses filz en <placeName ref="#Gr">Grèce</placeName> 
+				<l n="225"/>pour ravir <persName type="queen" ref="#Heln">la royne Hélène, la fe<ex>m</ex>me <persName type="king" ref="#Mnls">au 
+				<l n="226"/>roy Menelaus</persName></persName>, pour soy vengier de une 
+				<l n="227"/>honte que <rs type="demonym" ref="#Grs">les Griex</rs> li orent là faite. 
+				<l n="228"/><rs ref="#Grs"><hi>L</hi>es Griex</rs> q<ex>u</ex><add place="above">i</add> m<ex>ou</ex>lt furent corroucié de ceste 
+				<l n="229"/>chose, s'émure<ex>n</ex>t <ex>et</ex> vi<ex>n</ex>dre<ex>n</ex>t asségier <placeName ref="#Try">Troie</placeName>. 
+				<cb n="7"/><l n="230"/><hi rend="init5red">À</hi> <hi>c</hi>e siège qui <date dur="10YS">X ans</date> dura 
+				<l n="231"/>furent occis touz les filz 
+				<l n="232"/>au <persName ref="#Prm">roy Priant</persName>, li <ex>et</ex> <persName type="queen" ref="#Ecb">la roy
+				<l n="233" break="no"/>ne Ecuba, sa fe<ex>m</ex>me</persName>. <placeName ref="#Try"><hi>L</hi>a cité</placeName> 
+				<l n="234"/>fu arsé <ex>et</ex> destruite ; le peu
+				<l n="235" break="no"/>ple <ex>et</ex> les barons occis. Mais aucuns es
+				<l n="236" break="no"/>chapère<ex>n</ex>t de celle pestilence, et plus<ex>ieur</ex>s des 
+				<l n="237"/>p<ex>r</ex><add place="above">i</add>nces de la cité qui s'espandirent en di
+				<l n="238" break="no"/>v<ex>er</ex>ses p<ex>ar</ex>ties du monde pour qu'erre nou
+				<l n="239" break="no"/>velles habitacions, co<ex>m</ex>me <persName type="mythical prince" ref="#Hlnus">Helenus</persName>, <persName type="mythical prince" ref="#Eneas">Ene
+				<pb n="4v"/><cb n="8"/><l n="240" break="no"/>as</persName> et <persName type="mythical prince" ref="#Anthn">Anthénor</persName>, et maint autre. <hi>C</hi>il <persName ref="#Hlnus">He
+				<l n="241" break="no"/>lenus</persName> fu l'u<ex>n</ex> des filz au <persName ref="#Prm">roy Priant</persName>, et si 
+				<l n="242"/>estoit poètes <ex>et</ex> bon clerc. <hi>I</hi>l enmena avec 
+				<l n="243"/>li <num type="cardinal" value="1200">M CC</num> des essilliez de Troie ; en <placeName ref="#Gr">Grèce</placeName> s'en 
+				<l n="244"/>ala où règne <persName type="mythical king" ref="#Pndr">Pandrase</persName>; de li issi gra<ex>n</ex>t li
+				<l n="245" break="no"/>gnie. <persName ref="#Eneas"><hi>E</hi>neas</persName>, qui refu I des grans prin
+				<l n="246" break="no"/>ces de <placeName ref="#Try">Troie</placeName>, se mist en mer à tout <num type="cardinal" value="4300">IIII M 
+				<l n="247"/><ex>et</ex> IIII<add place="above">C</add></num> <rs type="demonym" ref="#Trys">Troiens</rs>. En <placeName type="historical city" ref="#Crtg">Cartage</placeName> arriva après 
+				<l n="248"/>grans périlz <ex>et</ex> grans tourmens que <persName ref="#Eneas">il</persName> ot 
+				<l n="249"/>en mer souffers. Avec <persName type="mythical queen" ref="#Dido">Dido, la royne de 
+				<l n="250"/>la cité</persName>, démoura une pièce du temps, puis 
+				<l n="251"/>s'en p<ex>ar</ex>ti <ex>et</ex> arriva en <placeName type="nation" ref="#Ita">Ytalie</placeName>, qui p<ex>ar</ex> sort li 
+				<l n="252"/>estoit destinée selon les fables ovidien
+				<l n="253" break="no"/>nes. La terre <ex>con</ex>quist, si régna <date dur="3YS">puis <num type="cardinal" value="3">III</num> 
+				<l n="254"/>ans</date>. Après sa mort, <persName type="mythical character" ref="#Asc">Ascanius, son filz</persName>, es
+				<l n="255" break="no"/>pousa <persName type="mythical princess" ref="#Lavn">Lavine, la fille au <persName type="mythical king" ref="#Ltn">roy Latin</persName></persName>. Un 
+				<l n="256"/>filz ot de celle dame, qui fu appellé <persName type="mythical king" ref="#Slv">Silvius</persName>. 
+				<l n="257"/><hi>Q</hi>u<ex>an</ex>t il fu grant <ex>et</ex> <unclear>pa<ex>r</ex>c<ex>re</ex>ü</unclear>, il hanta tant es 
+				<l n="257bis"/>cha<ex>m</ex>bres <persName ref="#Lvn">sa mère</persName> que il engroissa une seu
+				<l n="258" break="no"/>e nièce, si engendra en li <persName type="mythical king" ref="#Brut">Bruth</persName>. <hi>C</hi>e <persName ref="#Brut">Bru
+				<l n="259" break="no"/>tus</persName> enmena puis la ligniée d'<persName ref="#Eleni">Elé<damage>n</damage>i</persName>, dont 
+				<l n="260"/>no<ex>us</ex> avons dessus touchié en <placeName type="nation" ref="#Eng">l'îlle d'Albio<ex>n</ex>, 
+				<l n="261"/>qui ore est appelée Anglet<ex>er</ex>re</placeName>, et <persName ref="#Crn">Corinee</persName>, 
+				<l n="262"/>qui estoit descenduz de la ligniée de <persName ref="#Anthn">Anthé
+				<l n="263" break="no"/>nor</persName>. Qu<ex>an</ex>t il orent celle îlle prise, qui au 
+				<l n="264"/>temps de lors estoit habitée de iaians, 
+				<l n="265"/><hi>c</hi>eli <persName ref="#Crn">Corinee</persName> ot à sa part une contrée de 
+				<l n="266"/>la t<ex>er</ex>re, qui encore est appellé <placeName type="county" ref="#Crnlls">Cornouail
+				<l n="267" break="no"/>le</placeName>, p<ex>ar</ex> la rayson de son no<ex>m</ex>. L'autre p<ex>ar</ex>tie de 
+				<l n="268"/>la terre que <persName ref="#Brut">Brutus</persName> retint à soy refu de 
+				<l n="269"/>son no<ex>m</ex>, appellée Bretagne. <hi>L</hi>ors fonda u
+				<l n="270" break="no"/>ne cité tout à la samblance de <placeName ref="#Try">Troie la 
+				<l n="271"/>Grant</placeName>, <placeName type="city" ref="#Lndn">Trinovaque, c'est à dire Troie Nou
+				<l n="272" break="no"/>velle</placeName>. <hi>D</hi>e celui <persName ref="#Brut">Brut</persName> descendirent touz les 
+				<l n="273"/>roys qui, puis, furent en la terre iusq<ex>ue</ex>s au 
+				<l n="274"/>temps que <rs type="demonym" ref="#Englsh">Anglois</rs>, qui vindrent de <placeName type="historical region" ref="#Anglia">une 
+				<l n="275"/>des contrées de Soissoigne, qui estoit appel
+				<l n="276" break="no"/>lée Angle</placeName>, pristrent la terre, dès quiex elle 
+				<l n="277"/>est appellée <placeName ref="#Eng">Angleterre</placeName>. <persName type="mythical character" ref="#Trts"><hi>T</hi>urtus</persName> <ex>et</ex> <persName type="mythical character" ref="#Frncio">Fran
+				<l n="278" break="no"/>cio</persName>, qui estoient cousins g<ex>er</ex>mains, car <persName ref="#Frncio">F<ex>ra</ex>n
+				<l n="279" break="no"/>cio</persName> estoit filz de <persName type="mythical character" ref="#Hctr">Hector</persName>, et celi <persName ref="#Trts">Turtus</persName>, filz 
+				<l n="280"/><persName type="mythical character" ref="#Trl">Troilus</persName>, qui estoient frères et filz au <persName ref="#Prm">roy 
+				<l n="281"/>Priant</persName>. Il se dép<ex>ar</ex>tirent de leur <ex>con</ex>trée <ex>et</ex> alè
+				<l n="282" break="no"/>rent habiter delez une terrec <!-- valor [s] -->qui est appe
+				<l n="283" break="no"/>lée <placeName type="historical region" ref="#Trc">Trace</placeName>. <hi>L</hi>à démourerent sus I fleuve 
+				<l n="284"/>qui a no<ex>m</ex> la <placeName type="river" ref="#Dnb">Dynoe<!-- ¿El Danubio? --></placeName>. Quant ensemble ore<ex>n</ex>t 
+				<l n="285"/>habité I grant temps, <persName ref="#Trts">Turtus</persName> se dép<ex>ar</ex>ti de 
+				<l n="286"/><persName ref="#Frncio">Francio</persName>, son cousin, li <ex>et</ex> une p<ex>ar</ex>tie du pue
+				<l n="287" break="no"/>ple q<ex>u'</ex>il e<ex>n</ex>mena avec soy. En une <ex>con</ex>trée, s'e<ex>n</ex> 
+				<l n="288"/>ala qui est no<ex>m</ex>mée <placeName type="historical region" ref="#SctMn">Stice la Petite<!-- Escitia Menor--></placeName>. En celle 
+				<cb n="9"/><l n="289"/>terre habita si longuement, li <ex>et</ex> sa gent 
+				<l n="290"/>q<ex>u'</ex>il créèrent de eulz <num type="cardinal" value="4">IIII</num> man<ex>ièr</ex>es de g<damage>en</damage>s : 
+				<l n="291"/><rs type="demonym" ref="#Asgds">Austrogrohotes</rs>, <rs type="demonym" ref="#Visgds">Ypoghotes</rs>, <rs type="demonym" ref="#Wendos">Wandes</rs> et 
+				<l n="291bis"/><rs type="demonym" ref="#Normds">Normens</rs>. <persName ref="#Frncio">Francio</persName> démoura sus <placeName ref="#Dnb">le deva<ex>n</ex>t 
+				<l n="292"/>dit fleuve</placeName> après ce que <persName ref="#Trts">son cousin</persName> se fu 
+				<l n="293"/>de li dép<ex>ar</ex>ti. <hi>L</hi>à fondèrent une cité que il a
+				<l n="294" break="no"/>pellèrent <placeName type="city" ref="#Scmbr">Sicambre</placeName>, longuement furent 
+				<l n="295"/>appelléz <rs type="demonym" ref="#Scmbrs">Sicambriens</rs> pour le no<ex>m</ex> de celle ci
+				<l n="296" break="no"/>té, <damage>trib</damage>utaires estoient aus <rs ref="#Rmns">Romai<ex>ns</ex></rs>, aus
+				<l n="297" break="no"/>si co<ex>m</ex>me les autres nascions. <date dur="1507YS">M <ex>et</ex> D ans 
+				<l n="298"/><ex>et</ex> VII</date> démourèrent en <placeName ref="#Scmbr">celle cité</placeName> puis q<ex>u'</ex>il 
+				<l n="299"/>l'orent fondée.
+			</p>
+		</div>
+		<div type="chapter" n="2">
+			<p>
+				<l n="299"/><head rend="red ink"><hi>L</hi>e secont, de div<ex>er</ex>ses opini
+				<l n="301bis" break="no"/>ons po<ex>ur</ex> quoi il fure<ex>n</ex>t appelléz Fr<ex>a</ex>ncois<!-- valor [s] --></head>
+				<l n="302"/><hi rend="init3blue">A</hi><hi>p</hi>rès avint au temps Valentini
+				<l n="303" break="no"/>en, l'empe<ex>re</ex>our des Romains, qui ré
+				<l n="304" break="no"/>gna puis la passion Ih<ex>es</ex>ucrist<!-- j --> CCC <ex>et</ex> LXXVI 
+				<l n="305"/>ans q<ex>u'</ex>une manière de gens qui estoient 
+				<l n="306"/>appellés Alains habitoiens es paluz de Mé
+				<l n="307" break="no"/>ode. Fortes gens estoient <ex>et</ex> bataillereux. 
+				<l n="308"/>A celi empe<ex>re</ex>our Valentinien se combatire<ex>n</ex>t 
+				<l n="309"/>plus<ex>ieur</ex>s foiz ; les vainqui <ex>et</ex> les embati p<ex>ar</ex> for
+				<l n="310" break="no"/>ce dedenz les <unclear>d<ex>i</ex>ces</unclear> palus, mais les Romai<ex>n</ex>s, 
+				<l n="311"/>ne les porent ensuivre, car les liex estoie<ex>n</ex>t 
+				<l n="312"/>si fors <ex>et</ex> si périlleux pour les fontenis et 
+				<l n="313"/>pour les mareschières, que, quant il estoi
+				<l n="314" break="no"/>ent dede<ex>n</ex>z embatuz, il ne les puoient de rie<ex>n</ex>s 
+				<l n="315"/>grever. <hi>Q</hi>uant l'empe<ex>re</ex>our vit ce, il appella 
+				<l n="316"/>en s'aide les Troiens qui habitoient en Sy
+				<l n="317" break="no"/>cambre. Et leur pria qu'il feissent une voie 
+				<l n="318"/>tant seulem<ex>en</ex>t par quoy sa gent peussent 
+				<l n="319"/>venir à ses anémis soudainem<ex>en</ex>t. Cil li res
+				<l n="320" break="no"/>pondirent q<ex>u'</ex>il ne feroient pas ce sanz pl<ex>us</ex>, 
+				<l n="321"/>ainz li pr<ex>o</ex>mistrent que il les pre<ex>n</ex>droie<ex>n</ex>t et 
+				<l n="322"/>chaceroient fors par force. <hi>L</hi>'empereour 
+				<l n="323"/>qui m<ex>ou</ex>lt lie fu de celle response, leur quita 
+				<l n="324"/>le treü de X ans se-il puoient ce faire. Ioia<ex>n</ex>z 
+				<l n="325"/>fure<ex>n</ex> les Troiens de la p<ex>ro</ex>messe l'em<damage>per</damage>eour. 
+				<l n="326"/>Soudainem<ex>en</ex>t, se ferirent es paluz, <ex>com</ex>me ceulz 
+				<l n="327"/>qui b<ex>ie</ex>n savoient eschiver les périlz <ex>et</ex> les 
+				<l n="328"/>maulz pas qu'il cognoissoient. <hi>L</hi>es Alai<ex>n</ex>s 
+				<l n="329"/>trouvèrent asseurez, qui de eulz ne se pré
+				<l n="330" break="no"/>noie<ex>n</ex>t garde, car il cuidoient q<ex>ue</ex> nulz ne se 
+				<l n="331"/>peust iusq<ex>ue</ex>s à eulz venir pour la forteresce 
+				<l n="332"/>des liex. Grant p<ex>ar</ex>tie en occistrent ; l'autre 
+				<l n="333"/>p<ex>ar</ex>tie eschapa par fuite <ex>et</ex> aucuns en enpristre<ex>n</ex>t. 
+				<l n="334"/><!-- hay una c o una d invertida ornamentada en azul, pero parece que no se corresponde a una palabra -->L'empere<ex>our</ex> se m<ex>er</ex>veilla m<ex>ou</ex>lt de la force et 
+				<l n="335"/>de la hardiesce des Troiens, pour ce q<ex>u'</ex>il a
+				<l n="336" break="no"/>voient osé entrer es liex si périllex, occirre 
+				<l n="337"/><ex>et</ex> prendre <ex>et</ex> chacier les plus gra<ex>n</ex>s anémis 
+				<l n="338"/>de l'Empire, ce que les Romai<ex>n</ex>, vai<ex>n</ex>queurs, 
+				<pb n="5r"/><cb n="10"/><l n="339"/>de tout le monde, n'osoient faire pour ce 
+				<l n="340"/><damage>les app</damage>ella lors Francois <!-- valor [s] -->par la rayso<ex>n</ex> de le<ex>ur</ex> 
+				<l n="341"/><damage>fierté. <hi>A</hi></damage>utre opinion pour quoy il fure<ex>n</ex>t 
+				<l n="342"/><damage>dit Fra<ex>n</ex>cois<!-- valor [s] --></damage>. Aucuns des aucteurs raco<ex>n</ex>te<ex>n</ex>t 
+				<l n="343"/><damage>q<ex>u'</ex>il fur</damage>e<ex>n</ex>t appeléz Francois<!-- valor [s] -->, du no<ex>m</ex> du p<ex>r</ex><add place="above">i</add>nce 
+				<l n="344"/>q<ex>u'</ex>il orent qui estoit appelléz Francio<ex>n</ex>s, du 
+				<l n="345"/>quel nous avo<ex>n</ex> là-dessus parlé, et dient 
+				<l n="346"/>ainsi q<ex>ue</ex> qu<ex>an</ex>t il se p<ex>ar</ex>tirent de Troie la Grant, 
+				<l n="347"/>il firent I roy qui ot no<ex>m</ex> Frigan, puis alè
+				<l n="348" break="no"/>rent p<ex>ar</ex> maintes régions iusques<!-- j --> en Aise la 
+				<l n="349"/>Grant. Là se devisèrent en II p<ex>ar</ex>ties, desq<ex>ue</ex>lles 
+				<l n="350"/>l'une habita en Grèce en la terre de Macédoi
+				<l n="351" break="no"/>ne, p<ex>ar</ex> la v<ex>er</ex>tu des quielz les Macédonie<ex>n</ex>s fu
+				<l n="352" break="no"/>rent si redoubté que il firent m<ex>ou</ex>lt de batail
+				<l n="353" break="no"/>les <ex>et</ex> orent plus<ex>ieur</ex>s victoires p<ex>ar</ex> leur aide, au 
+				<l n="354"/>temps le roy Ph<ex>ilipp</ex>e et le grant roy Alixan
+				<l n="355" break="no"/>dre, son filz. <hi>L</hi>'autre p<ex>ar</ex>tie de ce devant dit 
+				<l n="356"/>pueple ala en Europe. Habitacion prist 
+				<l n="357"/>entre la grant mer et une région q<ex>u</ex><add place="above">i</add> est 
+				<l n="358"/>appellée Trace sur la rive de la Dinoe. Q<ex>uan</ex>t 
+				<l n="359"/>ainsi orent là habité une pièce du te<ex>m</ex>ps, 
+				<l n="360"/>il se dévisèrent en II p<ex>ar</ex>ties et furent II 
+				<l n="361"/>nascio<ex>n</ex> div<ex>er</ex>ses, appellées p<ex>ar</ex> div<ex>er</ex>s no<ex>m</ex>s. Car 
+				<l n="362"/>les uns fure<ex>n</ex>t no<ex>m</ex>méz Torgotin, pour leur 
+				<l n="363"/>roy qui estoit no<ex>m</ex>mé Torgotus. <hi>E</hi>t les au
+				<l n="364" break="no"/>tres, pout leur roy qui avoit no<ex>m</ex> Francio<ex>n</ex> 
+				<l n="365"/>furent appellés Francois, qui chacière<ex>n</ex>t les 
+				<l n="366"/>Alains des paluz de Méodes, si <ex>com</ex>me nous 
+				<l n="367"/>avons làssus dit, à la requeste<!-- conserva la s --> l'empe<ex>re</ex>our 
+				<l n="368"/>de <damage>Ro</damage>me.
+			</p>
+		</div>
+		<div type="chapter" n="3">
+			<p>
+				<head rend="red ink"><hi>L</hi>e tiers, <ex>com</ex>m<ex>en</ex>t il <ex>con</ex>quistrent Alema
+				<l n="369" break="no"/>gne <ex>et</ex> G<ex>er</ex>mani
+				<l n="370" break="no"/>e <ex>et</ex> <ex>com</ex>m<ex>en</ex>t il desconfi
+				<l n="371" break="no"/>re<ex>n</ex>t les Romai<ex>n</ex>s.</head>
+				<!-- la repetición de línea que sigue es intencional, el encabezado del título ocupa la parte derecha de la parte derecha de la columna. En la misma línea vemos el encabezado y el cuerpo del texto -->
+				<l n="369"/><hi rend="init3blue">Q</hi><hi>u</hi>ant les X ans fu
+				<l n="370" break="no"/>rent trespasséz 
+				<l n="371"/>l'empe<ex>re</ex>our Valentin, 
+				<l n="372"/>duquel nous avo<ex>n</ex>s parlé dessus, envoia 
+				<l n="373"/>ses messages aus Troiens pour qu'erre le 
+				<l n="374"/>treü q<ex>u'</ex>il avoient devant les X ans acou
+				<l n="375" break="no"/>stumé à paier. <hi>I</hi>l respondirent aus messa
+				<l n="376" break="no"/>ges q<ex>u'</ex>il en estoient quité par le pris de leur 
+				<l n="377"/>sa<ex>n</ex>c, et que pur eulz racheter de ce treü à 
+				<l n="378"/>touz iours<!-- j --> mais s'estoient il mis en p<ex>ér</ex>il de 
+				<l n="379"/>mort, et que iamais<!-- j --> treü ne leur rendroi
+				<l n="380" break="no"/>ent. <hi>L</hi>'empere<ex>our</ex>, plain de ire <ex>et</ex> de indig<ex>na</ex>tion, 
+				<l n="381"/><unclear>vint</unclear> sur eulz à grans oz, ses batailles or
+				<l n="382" break="no"/>dena pour combatre et les Troie<ex>n</ex>s, ià<!-- j --> soit 
+				<l n="383"/>ce q<ex>u'</ex>il ne fussent que une seule nascio<ex>n</ex> as
+				<l n="384" break="no"/>sez petite <ex>con</ex>tre l'Empire de Ro<ex>m</ex>me, issire<ex>n</ex>t <ex>con</ex>tre 
+				<l n="385"/>eulz à bataille. Mais qu<ex>an</ex>t il virent que la 
+				<l n="386"/>force des autres nascions estoit aioustée<!-- j --> 
+				<l n="387"/>aveq<ex>ue</ex>s les Romains, il sorent b<ex>ie</ex>n q<ex>u'</ex>il ne 
+				<l n="388"/>pourroie<ex>n</ex>t avoir longue durée encontre 
+				<cb n="11"/><l n="389"/>si giant <sic>pueple</sic>. Pour ce iugièrent<!-- j --> plus 
+				<l n="390"/>p<ex>ro</ex>fitable chose à cesser que à combatre. 
+				<l n="391"/>Leur cité <unclear>g<ex>uér</ex>pirent</unclear> lors, que il ne vouloie<ex>n</ex>t 
+				<l n="392"/>plus estre tributaire. En G<ex>er</ex>manie descen
+				<l n="393" break="no"/>dirent, les rivages pourpristrent du fleu
+				<l n="394" break="no"/>ve qui est appellée le Rin, III dux firent de 
+				<l n="395"/>leur gent pour eulz gouv<ex>er</ex>ner. <hi>L</hi>'un ot no<ex>m</ex> 
+				<l n="396"/>Marchomires ; l'autre, Sonnones, et le III, 
+				<l n="397"/>Genebaus. Leurs peuples estoit ià<!-- j --> form<ex>en</ex>t 
+				<l n="398"/>mo<ex>u</ex>tepliéz <ex>et</ex> creüz, car au temps q<ex>u'</ex>il issi
+				<l n="399" break="no"/>rent de Aise, il n'estoient pas plus de XII<add place="above">M</add> 
+				<l n="400"/>de gent d'armes. Et ià<!-- j --> estoient si mo<ex>u</ex>teplié, 
+				<l n="401"/>q<ex>ue</ex> les G<ex>er</ex>maines <ex>et</ex> les Alémans, qui en qu<ex>an</ex>
+				<l n="402" break="no"/>tité <ex>et</ex> en force sont puissans, avoie<ex>n</ex>t mer
+				<l n="403" break="no"/>veilleusem<ex>en</ex>t grant paour de eulz. P<ex>ar</ex>mi 
+				<l n="404"/>la t<ex>er</ex>re s'espandirent et pristrent plusseurs 
+				<l n="405"/>chastiaus <ex>et</ex> plus<ex>ieur</ex>s citez. <hi>E</hi>n ce temps ré
+				<l n="406" break="no"/>gnoit l'empere<ex>our</ex> Théodosies. Mai<ex>n</ex>te <ex>com</ex>plai<ex>n</ex>te 
+				<l n="407"/>ot des Francois, qui Alemaigne avoient 
+				<l n="408"/>ainsi pourprise, contre eulz e<ex>n</ex>voia à g<ex>ra</ex>nt 
+				<l n="409"/>ost Na<ex>n</ex>nie et Quentin, qui estoient II g<ex>ra</ex>ns 
+				<l n="410"/>maistres de ch<ex>eva</ex>l<ex>ie</ex>rs. Aus Francois se co<ex>m</ex>ba
+				<l n="411" break="no"/>tire<ex>n</ex>t ; vaincuz furent en la p<ex>re</ex>mière ba
+				<l n="412" break="no"/>taille. Qu<ex>an</ex>t il virent ce, il appellèrent en 
+				<l n="413"/>leur aide Eracle <ex>et</ex> Iovinien, q<ex>u</ex><add place="above">i</add> estoie<ex>n</ex>t II 
+				<l n="414"/>p<ex>r</ex><add place="above">i</add>nces de la ch<ex>eva</ex>l<ex>e</ex>rie de Ro<ex>mm</ex>e. <hi>D</hi>erechief se 
+				<l n="415"/>co<ex>m</ex>batire<ex>n</ex>t aus Francois tuit ensemble. 
+				<l n="416"/>En celle seco<ex>n</ex>de bataille fure<ex>n</ex>t les Romai<ex>n</ex>s 
+				<l n="417"/>desco<ex>n</ex>fiz, mais Eracle et Iovinien s'e<ex>n</ex>fui
+				<l n="418" break="no"/>re<ex>n</ex>t. <hi>E</hi>n celle seconde bataille fire<ex>n</ex>t les 
+				<l n="419"/>Fra<ex>n</ex>cois si g<ex>ra</ex>nt occision de Romai<ex>n</ex>s, q<ex>ue</ex> tou
+				<l n="420" break="no"/>tes les autres nascions en fure<ex>n</ex>t dure
+				<l n="421" break="no"/>m<ex>en</ex>t espoentéz, q<ex>ue</ex> nulz ne fu onq<ex>ue</ex>s puis q<ex>u</ex><add place="above">i</add> 
+				<l n="422"/>les osast co<ex>n</ex>traindre ne aresnier de ren
+				<l n="423" break="no"/>dre treü. <hi>C</hi>arbogastes, qui estoit conte 
+				<l n="424"/>de celle gent, s'enfui aus Romai<ex>n</ex>s après 
+				<l n="425"/>ce q<ex>ue</ex> les Francois l'orent vaincu, mais 
+				<l n="426"/>toute voies rappela il bataille <ex>con</ex>tre eulz. 
+				<l n="427"/>Une p<ex>ar</ex>tie en desconfist, et aus autres fist 
+				<l n="428"/>paiz, si tost <hi>i</hi>l est escript plus plainem<ex>en</ex>t <add place="right" rend="modern cursive">comme/</add> 
+				<l n="429"/>en la vie S<ex>aint</ex> Ambroise. <hi>E</hi>n ce te<ex>m</ex>ps pris
+				<l n="430" break="no"/>trent les Francois la cité de Trèves p<ex>ar</ex> le 
+				<l n="431"/><ex>con</ex>seil <ex>et</ex> p<ex>ar</ex> l'aide Lusse, l'un des conseilleurs 
+				<l n="432"/>de Ro<ex>m</ex>me, <hi>car</hi> celui Lusses avoit g<ex>ra</ex>nt duel 
+				<l n="433"/><ex>et</ex> grant despit de ce que Avices, qui 
+				<l n="434"/>aussi tost <unclear>empe<ex>re</ex>res</unclear> sur la terre de Galles, 
+				<l n="435"/>avoit geü avec sa fe<ex>m</ex>me <ex>et</ex> ce fu la ray
+				<l n="436" break="no"/>son pour quoy il le fist. 
+			</p>
+		</div>
+		<div type="chapter" n="4">
+			<p>
+				<!-- a pesar de que una nueva división del texto en este capítulo y la declaración de un encabezado supone una ruptura de línea al ejecutar, no se indica <lb> porque el texto continúa en la última línea indicada, la 436 -->
+				<head rend="red ink"><hi>L</hi>e IIII, co<ex>m</ex>ment 
+				<l n="437"/><ex>et</ex> qu<ex>an</ex>t la cité de Paris fu fondée, <ex>et</ex> du pre
+				<l n="438" break="no"/>mier roy de France.<!-- separador --></head>
+				<pb n="5v"/><cb n="12"/><l n="439"/><hi rend="init5red">T</hi><hi>o</hi>ute celle gent ne démo
+				<l n="440" break="no"/><damage>r</damage>a pas en celi païs, ains s'e<ex>n</ex> 
+				<l n="441"/>dép<ex>ar</ex>ti une co<ex>m</ex>paignie. XXIII<add place="above">M</add> 
+				<l n="442"/>fure<ex>n</ex>t p<ex>ar</ex> nombre ; entre eulz 
+				<l n="443"/>fire<ex>n</ex>t I duc qui ot nom Y
+				<l n="444" break="no"/>bors. Il guérpire<ex>n</ex>t Alemaigne <ex>et</ex> G<ex>er</ex>manie 
+				<l n="445"/>pour qu'erre nouvelle habitacio<ex>n</ex>. En Gal
+				<l n="446" break="no"/>le arrivère<ex>n</ex>t, le païs et la terre leur plut 
+				<l n="447"/>m<ex>ou</ex>lt, <ex>et</ex> m<ex>ou</ex>lt leur sambla délitable à démo
+				<l n="448" break="no"/>rer. Sur le flun de Saine habitèrent et 
+				<l n="449"/>fondèrent une cité qu'il no<ex>m</ex>mèrent Leuthe
+				<l n="450" break="no"/>ce, qui ore est appellée Paris, DCCC <ex>et</ex> IIII<add place="above">XX</add> 
+				<l n="451"/><ex>et</ex> XV ans devant l'incarnacion de N<ex>ot</ex>re S<ex>eigneur</ex>. 
+				<l n="452"/>Là habitèrent, puis que leur anceseur se 
+				<l n="453"/>fure<ex>n</ex>t p<ex>ar</ex>tiz de Sycambre, MCC <ex>et</ex> LXX ans. 
+				<l n="454"/><hi>E</hi>n celi temps vivoie<ex>n</ex>t simplem<ex>en</ex>t, pou 
+				<l n="455"/>savoie<ex>n</ex>t de l'usage d'armes. Au temps de 
+				<l n="456"/>lors n'avoit o<ex>n</ex>ques eu roy en France. Cha
+				<l n="457" break="no"/>scun faisoit ce que bon li sembloit. Mes 
+				<l n="458"/>toutevoies estoient il subiect<!-- j --> aus Rom
+				<l n="459" break="no"/>mai<ex>n</ex>s <ex>et</ex> faisoient chascun an <unclear>noviva<ex>us</ex></unclear> 
+				<l n="460"/><ex>con</ex>seilleurs de leur gent meismes pour le 
+				<l n="461"/>peuple gouv<ex>er</ex>ner aussi <ex>com</ex>me ceulz de Ro<ex>m</ex>e. 
+				<l n="462"/><hi>E</hi>n ce temps entra Marchomires en Fra<ex>n</ex>
+				<l n="463" break="no"/>ce. Celi Marchomires avoit esté filz au 
+				<l n="464"/>roy Prians d'Ostreriche, qui estoit descen
+				<l n="465" break="no"/>du de la ligniée le grant roy Priant de 
+				<l n="466"/>Troie. Ce<ex>li</ex> le recurent<!-- valor [s] --> m<ex>ou</ex>lt honorablem<ex>en</ex>t, 
+				<l n="467"/>le contre <ex>et</ex> sa gent, et pour ce qu'il leur en
+				<l n="468" break="no"/>seigna l'usage d'armes et qu'il fist clorre 
+				<l n="469"/>les citez <ex>et</ex> les chastiaux de muralles po<ex>ur</ex> 
+				<l n="470"/>les assaux des larrons, l'establirent il 
+				<l n="471"/>gouv<ex>er</ex>neur <ex>et</ex> déffendeur du païs. Et pour 
+				<l n="472"/>ce meismem<ex>en</ex>t qu'il estoit descenduz de la 
+				<l n="473"/>ligniée de Troie, aussi <ex>com</ex>me il estoient si fu
+				<cb n="13"/><l n="474" break="no"/>rent tout I peuple <ex>et</ex> une gent. Celi M<ex>a</ex>r
+				<l n="475" break="no"/>chomires avoit I filz qui avoit no<ex>m</ex> Pha
+				<l n="476" break="no"/>ramons, noble ch<ex>eva</ex>li<ex>er</ex> estoit et preus aus 
+				<l n="477"/>armes. <hi>L</hi>es Francois, qui voudre<ex>n</ex>t avoir 
+				<l n="478"/>roy aussi <ex>com</ex>me les autres nascions, pris
+				<l n="479" break="no"/>trent celui Pharamon par le <ex>con</ex>seil Mar
+				<l n="480" break="no"/>chomire, so<ex>n</ex> père. Seigneur <ex>et</ex> roy le firent 
+				<l n="481"/>sus eulz et li laissièrent le païs à gouv<ex>er</ex>
+				<l n="482" break="no"/>ner. <hi>C</hi>eli Pharamo<ex>n</ex> fu le p<ex>re</ex>mier roy de 
+				<l n="483"/>France, car à ce temps n'avoit onq<ex>ue</ex>s eu 
+				<l n="484"/>roy, ains estoit le païs souz l'Empire de 
+				<l n="485"/>Ro<ex>m</ex>me. Pour ce q<ex>ue</ex> Marchomires vouloit a
+				<l n="486" break="no"/>q<ex>ue</ex>rre leur gr<ex>âc</ex>e <ex>et</ex> leur amour, mua le no<ex>n</ex> 
+				<l n="487"/>de la cité, qui devant estoit appellée Leuthe
+				<l n="488" break="no"/>ce, qui vaut autant à dire <ex>com</ex>me ville plai
+				<l n="489" break="no"/>ne de boue, et li mist no<ex>m</ex> Paris pour Paris 
+				<l n="490"/>l'aisné filz au grant roy Priant de Troie, 
+				<l n="491"/>de qui ligniée il estoit descendu. <hi>C</hi>ar to<ex>us</ex> 
+				<l n="492"/>ceulz qui de celle gén<ex>ér</ex>acion estoient en 
+				<l n="493"/>quelq<ex>ue</ex>z t<ex>er</ex>re qu'il fussent, désiroie<ex>n</ex>t m<ex>ou</ex>lt que 
+				<l n="494"/>leurs no<ex>m</ex>s <ex>et</ex> leur reno<ex>m</ex>mée fust espandue 
+				<l n="495"/><ex>et</ex> mo<ex>u</ex>tepliée p<ex>ar</ex> tout le mo<ex>n</ex>de. <hi>C</hi>e roy Pha
+				<l n="496" break="no"/>ramo<ex>n</ex> gouv<ex>er</ex>na noblem<ex>en</ex>t le royaumne <!-- símbolo "!" -->
+				<l n="497"/>ta<ex>n</ex>t <ex>com</ex>me il vesqui, mort fu qu<ex>an</ex>t il ot ré
+				<l n="498" break="no"/>gné XX ans. 
+			</p>
+		</div>
+		<div type="chapter" n="5">
+			<p>
+				<head rend="red ink"><hi>D</hi>u secont roy qui ot non 
+				<l n="499"/>Clodio, le V chapitre.</head><!-- el título está en la parte derecha de la columna, el texto que sigue es el cuerpo, que empieza en la misma línea 499 -->
+				<hi rend="init6blue">I</hi>usq<ex>ue</ex>s ci, vous 
+				<l n="500"/>avo<ex>n</ex>s recitées les opinions d'aucu<ex>n</ex>s 
+				<l n="501"/>aucteurs. <hi>M</hi>ais pour ce que nous ne 
+				<l n="502"/>voulons pas que l'en puisse trouver 
+				<l n="503"/><ex>con</ex>trariété en ceste lettre, nous prendro<ex>n</ex>s 
+				<l n="504"/>la matière si co<ex>m</ex>me elle gist es croniq<ex>ue</ex>s, q<ex>u</ex><add place="above">i</add> 
+				<l n="505"/>ainsi die<ex>n</ex><subst><add place="overstrike" hand="#black">t</add></subst> que puis que les Francois s'en 
+				<l n="506"/>furent p<ex>ar</ex>tis de Sicambre et il orent Alemai
+				<l n="507" break="no"/>gne <ex>et</ex> G<ex>er</ex>manie co<ex>n</ex>quisé, et les romai<ex>n</ex>s des
+				<l n="508" break="no"/>co<ex>n</ex>fis p<ex>ar</ex> II batailles, il coronèrent I roy q<ex>u</ex><add place="above">i</add> 
+				<l n="509"/>ot no<ex>m</ex> Pharamo<ex>n</ex>. Celi Pharamo<ex>n</ex> enge<ex>n</ex>dra 
+				<l n="510"/>Clodio, qui après li fu roy. Appellé fu Clodi
+				<l n="511" break="no"/>o le Chevelu, car en ce temps estoient les 
+				<l n="512"/>roys chevolus. En pou de temps après q<ex>ue</ex> le 
+				<l n="513"/>roy Clodio fu coronné, li <ex>et</ex> celi Francio pris
+				<l n="514" break="no"/>trent à envaïr les terres meisiures et à 
+				<l n="515"/>courre sus à ceulz qui à eulz m<ex>a</ex>rchissoi<unclear><add place="overstrike">e</add></unclear>nt. 
+				<l n="516"/><hi>I</hi>l dégastèrent la <ex>con</ex>trée de une gent qui 
+				<l n="517"/>auq<ex>ue</ex>s p<ex>rè</ex>s de eulz marchissoient, que on 
+				<l n="518"/>appeloit Toringiens. <hi>C</hi>elle t<ex>er</ex>re siet e<ex>n</ex> une 
+				<l n="519"/>p<ex>ar</ex>tie d'Alemaigne. Un chastel pristie<ex>n</ex>t qui 
+				<l n="520"/>estoit no<ex>m</ex>mé Disp<ex>er</ex>gue ; <hi>e</hi>n ce chastel esta
+				<l n="521" break="no"/>bli le roy le siège de son règne. <hi>D</hi>ès lors 
+				<l n="522"/><ex>com</ex>m<ex>en</ex>coit<!-- valor [s] --> ià<!-- j --> l'Empire de Rome à abaissier 
+				<l n="523"/><ex>et</ex> à descheoir, et la force des Romai<ex>n</ex>s, qui 
+				<pb n="6r"/><cb n="14"/><l n="524"/>souloit estre comparée à force de fer, estoit 
+				<l n="525"/>ià cheüe en la fragilité qui est comparée 
+				<l n="526"/>à pièces de poz de terre. Car les Bourgoino<ex>n</ex>s 
+				<l n="527"/>avoie<ex>n</ex>t ià pourprisé et saisie la p<ex>ro</ex>vince de 
+				<l n="528"/>Lyons, et les Gothiens, celle d'Aquitaine, ne 
+				<l n="529"/>les romai<ex>n</ex>s ne tenoient plus de toute Galle 
+				<l n="530"/>fors celle p<ex>ar</ex>tie, qui est enclose entre Loire et 
+				<l n="531"/>le Rin.<!-- letra decorada que no es de una palabra --> <hi>L</hi>e roy Clodio, qui m<ex>ou</ex>lt désiroit à 
+				<l n="532"/>eslargir les bones de son royaume, envoia 
+				<l n="533"/>ses espies oultre le Rin pour savoir quelle 
+				<l n="534"/>déffense le païs avoit. Puis, passa oultre à 
+				<l n="535"/>tout son ost. La cité de Cambrai assist <ex>et</ex> p<ex>r</ex><add place="above">i</add>st ; 
+				<l n="536"/><hi>o</hi>ultre passa p<ex>ar</ex>mi la forest de la Charboniè
+				<l n="537" break="no"/>re, à la cité de Tornai vint le siège mist 
+				<l n="538"/>entour la ville. Assez tost après la prist. To<ex>us</ex> 
+				<l n="539"/>les Romains qui <ex>con</ex>tre li vindrent pour le pa
+				<l n="540" break="no"/>ïs déffendre occist et mist à mort. <hi>M</hi>ais po<ex>ur</ex> 
+				<l n="541"/>ce q<ex>ue</ex> nous avons ci fait me<ex>n</ex>cion de II p<ex>ro</ex>vin
+				<l n="542" break="no"/>ces de Galle, qui ore est appellée France, ave
+				<l n="543" break="no"/>na<ex>n</ex>t chose est que ci endroit soit mise la d<subst><add place="overstrike" hand="#black">i</add></subst>s
+				<l n="544" break="no"/>t<unclear>in</unclear>ctio<ex>n</ex> de toute Galle en la man<ex>ièr</ex>e q<ex>ue</ex> Iules 
+				<l n="545"/>César la descript, qui en X ans la conquist. 
+				<l n="546"/><hi>À</hi> li s'acorde Plinius et mai<ex>n</ex>s autres philoso
+				<l n="547" break="no"/>phes. <hi>E</hi> trois p<ex>ro</ex>vinces p<ex>r</ex><add place="above">i</add>ncipaux est tou
+				<l n="548" break="no"/>te Galle dévisiée. <hi>L</hi>a p<ex>re</ex>mière si est Celte, q<ex>u</ex><add place="above">i</add> 
+				<l n="549"/>vaut autant à dire <ex>com</ex>me celle de Lyons. La 
+				<l n="550"/>s<ex>e</ex>c<ex>on</ex>de, celle de Belgue ; et la tierce, celle d'Aq<ex>u</ex><add place="above">i</add>tai
+				<l n="551" break="no"/>ne. <hi>L</hi>a p<ex>ro</ex>vince donq<ex>ue</ex>s de Lyons, qui <ex>com</ex>me<ex>n</ex>
+				<l n="552" break="no"/>ce au Rosne<!-- el Ródano --> <ex>et</ex> fenist à Gironde, <ex>con</ex>tient main
+				<l n="553" break="no"/>te noble citéz, desquelles nous avo<ex>n</ex>s ci mis 
+				<l n="554"/>les no<ex>m</ex>s, car par les nons des citéz s<ex>er</ex>a plus 
+				<l n="555"/>légè<ex>re</ex>ment la descripcion ente<ex>n</ex>due. La p<ex>re</ex>miè
+				<l n="556" break="no"/>re si est Lyons, Chalon, Ostun, Sens, Troies, 
+				<l n="557"/>Aucerre, Mans, Paris, Orliens, Chartres, 
+				<l n="558"/>Rouen, Euvres, Lysieux, Avrences, Li Ma<ex>n</ex>s, 
+				<l n="559"/>Nantes, Rênes, Vanes, Angiers, Nevers, 
+				<l n="560"/>Tours et Bourges. <hi>M</hi>ais Sens <ex>et</ex> Austun 
+				<l n="561"/>furent anciennem<ex>en</ex>t de plus grant nobles
+				<l n="562" break="no"/>ce <ex>et</ex> de plus grant auctorité q<ex>ue</ex> nulles des 
+				<l n="563"/>aut<ex>re</ex>s. Car la cité d'Ostun fu aussi co<ex>mm</ex>e p<ex>ri</ex>n
+				<l n="564" break="no"/>cipal <ex>et</ex> maistresse de toute Galle au te<ex>m</ex>ps 
+				<l n="565"/>q<ex>ue</ex> Iules César <ex>et</ex> les Romai<ex>n</ex>s tenoie<ex>n</ex>t le pa
+				<l n="566" break="no"/>ïs, pour ce q<ex>ue</ex> elle obéist touziours<!-- j --> volen
+				<l n="567" break="no"/>tiers aus emp<ex>er</ex>eours de Rome <ex>et</ex> garda et 
+				<l n="568"/>nonrrist touziours la grâce <ex>et</ex> l'amour 
+				<l n="569"/>q<ex>u'</ex>elle avoit aus Romains. <!-- ornamento --><hi>L</hi>a cité de 
+				<l n="570"/>Sens refu de si grant afaire <ex>et</ex> de si grant 
+				<l n="571"/>fierré q<ex>ue</ex> les Frans Senonois assistrent Ro
+				<l n="572" break="no"/>me <ex>et</ex> la pristient par force <ex>et</ex> enclostrent 
+				<l n="573"/>les Romai<ex>n</ex>s dedenz le Capitole. Si les en fi
+				<cb n="15"/><l n="574" break="no"/>rent retourner par grant avoir que il 
+				<l n="575"/>leur donnère<ex>n</ex>t avant qu'il s'en vousisse<ex>n</ex>t 
+				<l n="576"/>p<ex>ar</ex>tir. Mais Horoses, qui fait une autre 
+				<l n="577"/>distinctio<ex>n</ex> de toute Galle et la devise en 
+				<l n="578"/>IIII p<ex>ro</ex>vinces, ne s'acorda pas que Tours <ex>et</ex> 
+				<l n="579"/>Bourges soient en la p<ex>ro</ex>vince de Lyons, ai<ex>n</ex>
+				<l n="580" break="no"/>cois<!-- valor [s] --> voult dire que elles sont en celle 
+				<l n="581"/>d'Aquitaine, pour ce que elle <ex>co</ex>me<ex>n</ex>ce au <!-- símbolo "!" -->
+				<l n="582"/>fleuve de Loire et dure iusques as mô<ex>n</ex>s 
+				<l n="583"/>de Mo<ex>n</ex>tieu. <hi>M</hi>ains fleuves courent p<ex>ar</ex> 
+				<l n="584"/>ceste p<ex>ro</ex>vince, des quiex le Rosne est le pl<ex>us</ex> 
+				<l n="585"/>grant. <hi>A</hi>près la descripcion de la p<ex>ro</ex>vin
+				<l n="586" break="no"/>ce de Lyons met Iules César celle de Belgue, 
+				<l n="587"/>qui <ex>com</ex>me<ex>n</ex>ce aus derremères p<ex>ar</ex>ties de Gal
+				<l n="588" break="no"/>le p<ex>ar</ex> dev<ex>er</ex>s le Rin et dure iusq<ex>ue</ex>s à la cité de 
+				<l n="589"/>Senliz, <ex>et</ex> s'estent tout contre mo<ex>n</ex>t v<ex>er</ex>s Orie<ex>n</ex>t, 
+				<l n="590"/>do<ex>n</ex>t les plus nobles cités sont ci nomées. 
+				<l n="591"/><hi>L</hi>a p<ex>re</ex>mière est Coloigne, Tongre, Trèves, 
+				<l n="592"/>Mes, Toul, Verdun, Rains, Chaalo<ex>n</ex>s, Laon, 
+				<l n="593"/>Soissons, Noyon, Biauves, Vermans, Ar
+				<l n="594" break="no"/>raz, Tournay, Cambrai et maintes aut<ex>re</ex>s. 
+				<l n="595"/><hi>M</hi>ai<ex>n</ex>s fleuves courent p<ex>ar</ex> celle p<ex>ro</ex>vince 
+				<l n="596"/>do<ex>n</ex>t le Rin, Matrone <supplied reason="omitted">et</supplied> Muese so<ex>n</ex>t les plus 
+				<l n="597"/>g<ex>ra</ex>ns. <hi>M</hi>aintes riches fores<!-- conserva la s, no utilizo circunflejo --> des quiex Ar
+				<l n="598" break="no"/>de<ex>n</ex>ne est la plus grant ; si grande est q<ex>u'</ex>
+				<l n="599" break="no"/>elle dure plus de D milles de lonc. <!-- ornamento --><hi>L</hi>a 
+				<l n="600"/>tierce p<ex>ro</ex>vince si est celle d'Aquitaine, selo<ex>n</ex> 
+				<l n="601"/>la descripcio<ex>n</ex> Plinius et Iules César. Si co<ex>m</ex>
+				<l n="602" break="no"/>me<ex>n</ex>ce au fleuve de Gironde, et d'une part 
+				<l n="603"/>iusq<ex>ue</ex>s aus mons de Montieu, et d'autre, 
+				<l n="604"/>costé iusq<ex>ue</ex>s <surplus>au costé</surplus> à lentrée d'Espagne. 
+				<l n="605"/>Mai<ex>n</ex>tes nobles citéz <ex>con</ex>tient, la p<ex>re</ex>mière est 
+				<l n="606"/>Clermo<ex>n</ex>t, Narbonne, Kaours, Thoulouse, 
+				<l n="607"/>Gaiete, Rodais, Lymoges, Pierregort, Poi
+				<l n="608" break="no"/>tiers, Bordiaus, Saintes et Angoulesme. 
+				<l n="609"/><hi>M</hi>ai<ex>n</ex>tes riches forez <ex>con</ex>tient, et mai<ex>n</ex>s g<ex>ra</ex>ns 
+				<l n="610"/>fleuves, II des plus reno<ex>m</ex>mméz sont Giron
+				<l n="611" break="no"/>de <ex>et</ex> Dordo<ex>n</ex>ne. <hi>C</hi>est fleuve, qui est no<ex>m</ex>mé Dor
+				<l n="612" break="no"/>done, retient le no<ex>m</ex> de II fontaines do<ex>n</ex>t il 
+				<l n="613"/>sourt. <hi>D</hi>ont l'une est appellée Dor, <ex>et</ex> l'autre, 
+				<l n="614"/>Do<ex>n</ex>ne. Si est no<ex>m</ex>mée ceste p<ex>ro</ex>vince Aq<ex>u</ex><add place="above">i</add>taine, 
+				<l n="615"/>pour ce q<ex>u'</ex>elle est plus habondant de fon
+				<l n="616" break="no"/>taines <ex>et</ex> de fleuves que nulles de autres. 
+				<l n="617"/><!-- ornamento --><hi>Q</hi><ex>ua</ex>nt les Francois orent co<ex>n</ex>quises tou
+				<l n="618" break="no"/>tes ces p<ex>ro</ex>vinces, il les dévisèrent en II p<ex>ar</ex>ti
+				<l n="619" break="no"/>es tant seulem<ex>en</ex>t. <hi>C</hi>elle p<ex>ar</ex>tie dev<ex>er</ex>s Septe<ex>n</ex>tri
+				<l n="620" break="no"/>on, qui est enclosé entre Muese <ex>et</ex> le Rin, ap
+				<l n="621" break="no"/>pellèrent Austrie. <hi>C</hi>elle qui est entre Moe
+				<l n="622" break="no"/>se <ex>et</ex> Loire appellèrent Neustrie, et p<ex>ar</ex> ce no<ex>m</ex> 
+				<l n="623"/>fu iadis<!-- j --> Norme<ex>n</ex>die appellée ava<ex>n</ex>t q<ex>ue</ex> Nor
+				<pb n="6v"/><cb n="16"/><l n="624" break="no"/>mens la preissent. <hi>C</hi>elle p<ex>ar</ex>tie dev<ex>er</ex> Lyo<ex>n</ex>s 
+				<l n="625"/>q<ex>ue</ex> les Bourgoigno<ex>n</ex>s pristrent retint le 
+				<l n="626"/>no<ex>m</ex> de eulz, pour ce fu elle appellée Bour
+				<l n="627" break="no"/>goigne. <hi>C</hi>i avo<ex>n</ex>s descript le siège de 
+				<l n="628"/>toute Galle, au miex que nous puons 
+				<l n="629"/>selon les livres des anciens aucteurs.
+			</p>
+		</div>
+	  </body>
+  </text>
+</TEI>
