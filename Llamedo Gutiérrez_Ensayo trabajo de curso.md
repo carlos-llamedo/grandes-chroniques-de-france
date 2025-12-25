@@ -10,9 +10,9 @@ En el planteamiento de implementación de TEI en este texto tomé ejemplos de va
 
 Hacer esto automáticamente usando la función «buscar y reemplazar» de Notepad++ no es particularmente difícil. En el apartado «sustituir», y marcando en «modo de búsqueda» «expresión regular» en vez de «normal», se sustituyen por nada (en efecto, se eliminan) \<l/\>, \<cb/\>, \<pb/\>. Para ello hace falta hacer varias acomodaciones. Como el fichero del proyecto principal no solo dividía el documento en líneas, sino que asignaba a cada una un número, esto se debía tener en cuenta. Así mismo, se pensó inicialmente en utilizar la función «Editar» – «Operaciones con líneas» – «Unir líneas» (Ctrl+J), pero esta generaba espacios indeseados. Así, quedó claro que la operación debía seguir este orden:
 
--   Primero, eliminar genéricamente los \<l/\>, \<cb/\> y \<pb/\>, conteniendo los atributos que tuvieran. Notepad++ permite hacer esto mediante la expresión regular \<l .\*?/\> (con sus respectivos para columnas y páginas). De esta manera era fácil eliminar los saltos. Pero ejecutar el código en este estado resultaba en roturas de palabras separadas aún por las tabulaciones y los espacios indeseados.
+- Primero, eliminar genéricamente los \<l/\>, \<cb/\> y \<pb/\>, conteniendo los atributos que tuvieran. Notepad++ permite hacer esto mediante la expresión regular \<l .\*?/\> (con sus respectivos para columnas y páginas). De esta manera era fácil eliminar los saltos. Pero ejecutar el código en este estado resultaba en roturas de palabras separadas aún por las tabulaciones y los espacios indeseados.
 
--   Por ello, una vez eliminado, se reemplazan primero los espacios entre líneas mediante la expresión \\R (dejando el segundo cuadro, de nuevo, vacío). Esto solo deja las tabulaciones, que son eliminadas repitiendo la expresión, pero con \\t esta vez.
+- Por ello, una vez eliminado, se reemplazan primero los espacios entre líneas mediante la expresión \\R (dejando el segundo cuadro, de nuevo, vacío). Esto solo deja las tabulaciones, que son eliminadas repitiendo la expresión, pero con \\t esta vez.
 
 Esta operación elimina los espacios indeseados que el comando «Unir líneas» generaba, pero ello implica que se ha de diferenciar de alguna manera una palabra que es continua a lo largo de distintas líneas de otra que no. Para ello, y con propósito, se utiliza el carácter vacío, el espacio: al final de cada línea sin continuidad se deja un espacio; cuando hay continuidad entre ellas, ese espacio se elimina. De esta manera, unir las líneas y eliminar las tabulaciones mediante sustitución une las palabras deseadas y separa las que no. La expresión general de todo ello, utilizando «\|», que funciona como operador booleano «or», resulta así: \<l .\*?/\>\|\<cb .\*?/\>\|\<pb .\*?/\>\|\\R\|\\t.
 
@@ -22,27 +22,27 @@ Así, las etiquetas utilizadas se pueden dividir en aspectos gráficos y aspecto
 
 ## Aspectos gráficos
 
-a.  Saltos de página (\<pb/\>), columna (\<cb/\>) y línea (\<l/\>). Cada uno de ellos utiliza el atributo \@n para indicar su número. En el caso de que una palabra se corte al final de la línea, \<l/\> incorpora el atributo break="no".
+- a. Saltos de página (\<pb/\>), columna (\<cb/\>) y línea (\<l/\>). Cada uno de ellos utiliza el atributo \@n para indicar su número. En el caso de que una palabra se corte al final de la línea, \<l/\> incorpora el atributo break="no".
 
-b.  Mayúsculas (\<hi\>). En caso de encontrar una capital decorada, se utiliza el atributo rend="init#colour", donde el «#» corresponde al número de líneas que la capital abarca y «colour», por el color de la misma.
+- b. Mayúsculas (\<hi\>). En caso de encontrar una capital decorada, se utiliza el atributo rend="init#colour", donde el «#» corresponde al número de líneas que la capital abarca y «colour», por el color de la misma.
 
-c.  Daño (\<damage\>). En caso de encontrar una sección del texto dañada de cualquier forma, se encapsula el texto legible afectado en esta etiqueta, utilizando el atributo \@type para dar alguna concreción si se puede.
+- c. Daño (\<damage\>). En caso de encontrar una sección del texto dañada de cualquier forma, se encapsula el texto legible afectado en esta etiqueta, utilizando el atributo \@type para dar alguna concreción si se puede.
 
 ## Aspectos textuales
 
-a.  División lógica del texto (\<div\>). El prólogo, el índice y cada uno de los capítulos está marcado con esta etiqueta, que utiliza los atributos \@type ("prologue", "table of contents" y "chapter") y \@n (numeración) para hacer precisiones.
+- a. División lógica del texto (\<div\>). El prólogo, el índice y cada uno de los capítulos está marcado con esta etiqueta, que utiliza los atributos \@type ("prologue", "table of contents" y "chapter") y \@n (numeración) para hacer precisiones.
 
-b.  Abreviaturas desarrolladas con \<ex\>.
+- b. Abreviaturas desarrolladas con \<ex\>.
 
-c.  Para adiciones de texto (sea en un margen, en la parte superior o directamente encima de otra palabra) se utiliza \<add\> con el atributo \@place. En caso de que la adición sea encima del propio texto, \<add\> se encapsula dentro de la etiqueta \<subst\>, y se incorpora el atributo hand="#mano", donde «mano» se sustituye por un elemento identificador del corrector (como, por ejemplo, la tinta más oscura que usa "#black").
+- c. Para adiciones de texto (sea en un margen, en la parte superior o directamente encima de otra palabra) se utiliza \<add\> con el atributo \@place. En caso de que la adición sea encima del propio texto, \<add\> se encapsula dentro de la etiqueta \<subst\>, y se incorpora el atributo hand="#mano", donde «mano» se sustituye por un elemento identificador del corrector (como, por ejemplo, la tinta más oscura que usa "#black").
 
-d.  Para elementos de la transcripción dudosas se utiliza la etiqueta \<nuclear\>.
+- d. Para elementos de la transcripción dudosas se utiliza la etiqueta \<nuclear\>.
 
-e.  Para elementos considerados errores en el contexto del texto, se utiliza \<sic\>. Haría falta un conocimiento verdaderamente profundo de la escritura francesa de la época para utilizar esto efectivamente, así que su uso es bastante reducido.
+- e. Para elementos considerados errores en el contexto del texto, se utiliza \<sic\>. Haría falta un conocimiento verdaderamente profundo de la escritura francesa de la época para utilizar esto efectivamente, así que su uso es bastante reducido.
 
-f.  Nombres personales codificados con \<persName\>, nombres de organizaciones, con \<orgName\> topónimos con \<placeName\> y gentilicios con \<rs type="demonym"\>. A todos ellos acompaña un atributo \@type para clasificarlo ("king", "city") y el atributo ref="#código", donde «código» es reemplazado por un identificador único que permite singularizar y referenciar ese elemento en concreto.
+- f. Nombres personales codificados con \<persName\>, nombres de organizaciones, con \<orgName\> topónimos con \<placeName\> y gentilicios con \<rs type="demonym"\>. A todos ellos acompaña un atributo \@type para clasificarlo ("king", "city") y el atributo ref="#código", donde «código» es reemplazado por un identificador único que permite singularizar y referenciar ese elemento en concreto.
 
-    -   En la singularización que se hace de personajes, organizaciones y lugares antes del texto se utilizan \<trait\> para indicar vinculaciones. En los personajes, \<roleName\> con el atributo ref="#organización" (donde «organización» se sustituye por el identificador concreto) se utiliza para vincularlos a organizaciones listadas.
+    - En la singularización que se hace de personajes, organizaciones y lugares antes del texto se utilizan \<trait\> para indicar vinculaciones. En los personajes, \<roleName\> con el atributo ref="#organización" (donde «organización» se sustituye por el identificador concreto) se utiliza para vincularlos a organizaciones listadas.
 
 g.  Fechas y duraciones se etiquetan con \<date\>, añadiendo el atributo \@when para una fecha concreta, \@notAfter o \@notBefore para dataciones *ante quem* y *post quem*, \@from y \@to para un rango concreto y \@dur para indicar duraciones (se utilizan YS para indicar años). Lo mismo aplica para \<birth\> y \<death\> en el caso de los personajes. Se añadió el atributo \@type para indicar algún tipo de datación específica, como *Ab Urbe Condita* (AUC).
 
