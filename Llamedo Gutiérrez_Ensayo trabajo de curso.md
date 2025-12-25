@@ -44,7 +44,7 @@ Así, las etiquetas utilizadas se pueden dividir en aspectos gráficos y aspecto
 
     - En la singularización que se hace de personajes, organizaciones y lugares antes del texto se utilizan \<trait\> para indicar vinculaciones. En los personajes, \<roleName\> con el atributo ref="#organización" (donde «organización» se sustituye por el identificador concreto) se utiliza para vincularlos a organizaciones listadas.
 
-g.  Fechas y duraciones se etiquetan con \<date\>, añadiendo el atributo \@when para una fecha concreta, \@notAfter o \@notBefore para dataciones *ante quem* y *post quem*, \@from y \@to para un rango concreto y \@dur para indicar duraciones (se utilizan YS para indicar años). Lo mismo aplica para \<birth\> y \<death\> en el caso de los personajes. Se añadió el atributo \@type para indicar algún tipo de datación específica, como *Ab Urbe Condita* (AUC).
+- g. Fechas y duraciones se etiquetan con \<date\>, añadiendo el atributo \@when para una fecha concreta, \@notAfter o \@notBefore para dataciones *ante quem* y *post quem*, \@from y \@to para un rango concreto y \@dur para indicar duraciones (se utilizan YS para indicar años). Lo mismo aplica para \<birth\> y \<death\> en el caso de los personajes. Se añadió el atributo \@type para indicar algún tipo de datación específica, como *Ab Urbe Condita* (AUC).
 
 ## Miscelánea: comentarios
 
