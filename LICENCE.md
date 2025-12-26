@@ -28,7 +28,7 @@ b. **Adapter’s Licence** means the licence You apply to Your Copyright and Sim
 
 c. **BY-SA Compatible Licence** means a licence listed at [creativecommons.org/compatiblelicenses](https://creativecommons.org/compatiblelicenses), approved by Creative Commons as essentially the equivalent of this Public Licence.
 
-d. **Copyright and Similar Rights** means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public Licence, the rights specified in Section [2(b)(1)-(2)](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en#s2b) are not Copyright and Similar Rights.
+d. **Copyright and Similar Rights** means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public Licence, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.
 
 e. **Effective Technological Measures** means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.
 
