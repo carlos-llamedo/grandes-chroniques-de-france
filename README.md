@@ -67,6 +67,6 @@ Los comentarios (`<!-- comentario -->`) se han utilizado a lo largo de todo el t
 
 # Derechos
 
-Esta obra está bajo una [licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional](https://creativecommons.org/licenses/by-sa/4.0/deed.es).
+Esta obra está bajo una [licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional](LICENCE.md).
 
 [![CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.es)
