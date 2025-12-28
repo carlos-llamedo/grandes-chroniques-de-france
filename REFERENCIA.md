@@ -8,7 +8,7 @@ tags:
 ## Ubicación en Zotero
 
 - **Colección:** `Archivo/Grado en Historia/04-S2 TIC Aplicadas a la Historia/Las grandes crónicas de Francia`
-- **Enlace:** [zotero://select/library/collections/ZRFLZWS5](zotero://select/library/collections/ZRFLZWS5)
+- **Enlace:** <zotero://select/library/collections/ZRFLZWS5>
 
 ## Bibliografía
 
