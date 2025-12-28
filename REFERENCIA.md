@@ -38,4 +38,4 @@ Es una **referencia estática**. Para un listado procesado y actualizado de refe
 
 La carpeta en la que se ubica es un contenedor del proyecto en `~/Documentos`.
 
-Archivos asociados, como `PDF` o `EPUB`, se pueden encontrar en la carpeta [`~/Biblioteca`](file://Biblioteca), con formato `Apellido - Año - Título`.
+Archivos asociados, como `PDF` o `EPUB`, se pueden encontrar en la carpeta [`~/Biblioteca`](file://Biblioteca), con formato `Apellido - Año - Título`
