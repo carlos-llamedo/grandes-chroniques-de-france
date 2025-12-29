@@ -3,6 +3,7 @@ creada: 2025-12-21H13:19
 tags:
   - referencia
 ---
+
 # Este proyecto tiene asociadas referencias en una colección de `Zotero`
 
 ## Ubicación en Zotero
