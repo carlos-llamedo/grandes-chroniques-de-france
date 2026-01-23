@@ -46,7 +46,7 @@ Además de ello, las normas TEI P5 dan valores recomendados a varios atributos, 
 
 ### Aspectos gráficos
 
-1. Saltos de página (`<pb/>`), columna (`<cb/>`) y línea (`<l/>`). Cada uno de ellos utiliza el atributo @n para indicar su número. En el caso de que una palabra se corte al final de la línea, `<l/>` incorpora el atributo `break="no"`.
+1. Saltos de página (`<pb/>`), columna (`<cb/>`) y línea (`<l/>`). Cada uno de ellos utiliza el atributo `@n` para indicar su número. En el caso de que una palabra se corte al final de la línea, `<l/>` incorpora el atributo `break="no"`.
 2. Mayúsculas (`<hi>`). En caso de encontrar una capital decorada, se utiliza el atributo `rend="init#colour"`, donde `#` corresponde al número de líneas que la capital abarca y `colour`, al color de la misma.
 3. Daño (`<damage>`). En caso de encontrar una sección del texto dañada de cualquier forma, se encapsula el texto legible afectado en esta etiqueta, utilizando el atributo `@type` para dar alguna concreción si se puede.
 
@@ -57,7 +57,7 @@ Además de ello, las normas TEI P5 dan valores recomendados a varios atributos, 
 3. Para adiciones de texto (sea en un margen, en la parte superior o directamente encima de otra palabra) se utiliza `<add>` con el atributo `@place`. En caso de que la adición sea encima del propio texto, `<add>` se encapsula dentro de la etiqueta `<subst>`, y se incorpora el atributo `hand="#mano"`, donde `mano` se sustituye por un elemento identificador del corrector (como, por ejemplo, la tinta más oscura que usa `"#black"`).
 4. Para elementos de la transcripción dudosas se utiliza la etiqueta `<unclear>`.
 5. Para elementos considerados errores en el contexto del texto, se utiliza `<sic>`. Haría falta un conocimiento verdaderamente profundo de la escritura francesa de la época para utilizar esto efectivamente, así que su uso es bastante reducido.
-6. Nombres personales codificados con `<persName>`, nombres de organizaciones, con `<orgName>`, topónimos con `<placeName>` y gentilicios con `<rs type="demonym">`. A todos ellos acompaña un atributo @type para clasificarlo (`"king"`, `"city"`) y el atributo `ref="#código"`, donde `código` es reemplazado por un identificador único que permite singularizar y referenciar ese elemento en concreto.
+6. Nombres personales codificados con `<persName>`, nombres de organizaciones, con `<orgName>`, topónimos con `<placeName>` y gentilicios con `<rs type="demonym">`. A todos ellos acompaña un atributo `@type` para clasificarlo (`"king"`, `"city"`) y el atributo `ref="#código"`, donde `código` es reemplazado por un identificador único que permite singularizar y referenciar ese elemento en concreto.
 	  - En la singularización que se hace de personajes, organizaciones y lugares antes del texto se utilizan `<trait>` para indicar vinculaciones. En los personajes, `<roleName>` con el atributo `ref="#organización"` (donde `organización` se sustituye por el identificador concreto) se utiliza para vincularlos a organizaciones listadas.
 7. Fechas y duraciones se etiquetan con `<date>`, añadiendo el atributo `@when` para una fecha concreta, `@notAfter` o `@notBefore` para dataciones _ante quem_ y _post quem_, `@from` y `@to` para un rango concreto y `@dur` para indicar duraciones (se utilizan `YS` para indicar años). Se añadió el atributo `@type` para indicar algún tipo de datación específica, como Ab Urbe Condita (`AUC`). Lo mismo aplica para `<birth>` y `<death>` en el caso de los personajes.
 
