@@ -7,4 +7,4 @@ authors:
 
 title: "«Grandes chroniques de France» de Charles V. Prólogo, índice de contenidos y caps. I-V en formato digital"  
 date-released: 2024-05  
-url: "<https://github.com/carlos-llamedo/grandes-chroniques-de-france>"
+url: "<https://codeberg.org/carlos-llamedo/grandes-chroniques-de-france>"
