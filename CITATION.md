@@ -1,5 +1,5 @@
 cff-version: 1.2.0  
-message: "Si usa esta edición, cítela como se indica."  
+message: "Si usa esta edición, cítela como se indica"  
 authors:
 - family-names: Llamedo Gutiérrez  
   given-names: Carlos  

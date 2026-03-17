@@ -1,10 +1,11 @@
 ---
 creada: 2025-12-21H13:19
+proyecto: Las grandes crónicas de Francia
 tags:
   - referencia
 ---
 
-# Este proyecto tiene asociadas referencias en una colección de `Zotero`
+# Este proyecto tiene asociadas referencias en una colección de Zotero
 
 ## Ubicación en Zotero
 
@@ -33,7 +34,7 @@ Viard, Jules. 1920. *Des origines à Clotaire II*. Vol. 1 of *Les Grandes Chroni
 
 ## Sobre este archivo
 
-Este archivo es un **enlace a una colección de `Zotero`** que contiene las referencias relativas al proyecto, así como un **punto de recuperación mínimo** del contenido en caso de pérdida.
+Este archivo es un **enlace a una colección de Zotero** que contiene las referencias relativas al proyecto, así como un **punto de recuperación mínimo** del contenido en caso de pérdida.
 
 Las referencias se presentan en el **estilo *Chicago***, en su variante **autor-fecha**.
 
@@ -41,4 +42,4 @@ Es una **referencia estática**. Para un listado procesado y actualizado de refe
 
 La carpeta en la que se ubica es un contenedor del proyecto en `~/Documentos`.
 
-Archivos asociados, como `PDF` o `EPUB`, se pueden encontrar en la carpeta [`~/Biblioteca`](file://Biblioteca), con formato `Apellido - Año - Título`.
+Archivos asociados, como PDF o EPUB, se pueden encontrar en la carpeta [`~/Biblioteca`](file://Biblioteca), con formato `Apellido - Año - Título`.

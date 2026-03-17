@@ -1,14 +1,14 @@
 [![CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/deed.es)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--2819--5157-green?logo=orcid&logoColor=white)](https://orcid.org/0009-0009-2819-5157)
 
-# _Grandes chroniques de France_ de Charles V. Prólogo, índice de contenidos y caps. I-V en formato digital
+# *Grandes chroniques de France* de Charles V. Prólogo, índice de contenidos y caps. I-V en formato digital
 ## Editado por [Carlos Llamedo Gutiérrez](https://orcid.org/0009-0009-2819-5157)
 
 # Presentación del proyecto y del texto
 
 Esta edición del texto se ha creado como trabajo de curso para la asignatura [Tecnologías de la Información y la Comunicación Aplicadas a la Historia](https://www.uniovi.es/estudia/grados/humanidades/historia/-/fof/asignatura/GHISTO01-4-005) del [grado en Historia](https://www.uniovi.es/estudia/grados/humanidades/historia) de la [Universidad de Oviedo](https://www.uniovi.es).
 
-El fragmento editado pertenece a las _Grandes crónicas de Francia_, encargadas originalmente por Luis IX y continuadas por los monjes de Saint-Denis por orden de Carlos V hasta 1379. En ellas se presenta un relato inédito de la historia de la realeza francesa; texto e ilustración contribuyen a reforzar la idea de la legitimidad y el poder de los Valois en el último cuarto del siglo XIV, trazando una historia de los francos que se remonta a los troyanos y que cubre a las dinastías Merovingia, Carolingia y la de los Capeto y, a las que se añaden posteriormente los reinados contemporáneos de los Valois Juan II el Bueno y de Carlos V el Sabio. 
+El fragmento editado pertenece a las *Grandes crónicas de Francia*, encargadas originalmente por Luis IX y continuadas por los monjes de Saint-Denis por orden de Carlos V hasta 1379. En ellas se presenta un relato inédito de la historia de la realeza francesa; texto e ilustración contribuyen a reforzar la idea de la legitimidad y el poder de los Valois en el último cuarto del siglo XIV, trazando una historia de los francos que se remonta a los troyanos y que cubre a las dinastías Merovingia, Carolingia y la de los Capeto y, a las que se añaden posteriormente los reinados contemporáneos de los Valois Juan II el Bueno y de Carlos V el Sabio. 
 
 Se ofrece así una rara oportunidad de comprender la génesis y la evolución del pensamiento político real y de la propaganda francesa de época. En esta edición se presentan el prefacio de la crónica, la tabla de contenidos que se hace de ella y sus cinco primeros capítulos, que comienzan en la guerra de Troya y terminan con Clodión, de la dinastía Merovingia.
 
@@ -32,7 +32,7 @@ En el planteamiento de edición de este texto tomé ejemplos de varios sitios. E
 
 En ella se puede delinear claramente cuál sería la estructura de etiquetado básica, aunque recurrí a más fuentes, ejemplos concretos de codificación de manuscritos medievales realizados con el estándar. Dos proyectos en especial sirvieron en la codificación: [Andrew Dunning, «Transcribing Medieval Manuscripts with TEI»](https://andrewdunning.ca/transcribing-medieval-manuscripts-tei); [«Normas de transcripción», 7 Partidas Digital](https://7partidas.hypotheses.org/normas-de-transcripcion).
 
-Es común en estos proyectos marcar la longitud de línea, columna y página, pero eso hace el texto difícilmente legible. Se opta, finalmente, por presentar dos formatos del texto, uno en el que se mantuviesen estos aspectos y otro en el que no. Para simplificar, trabajo sobre un documento en el que sí se mantienen (_Llamedo Gutiérrez_BnF_Français 2813_) del que se eliminan, una vez hecho, las rupturas (_Llamedo_Gutiérrez_BnF_Français 2813 - sin saltos de línea-columna-página_).
+Es común en estos proyectos marcar la longitud de línea, columna y página, pero eso hace el texto difícilmente legible. Se opta, finalmente, por presentar dos formatos del texto, uno en el que se mantuviesen estos aspectos y otro en el que no. Para simplificar, trabajo sobre un documento en el que sí se mantienen (*Llamedo Gutiérrez*BnF*Français 2813*) del que se eliminan, una vez hecho, las rupturas (*Llamedo*Gutiérrez*BnF*Français 2813 - sin saltos de línea-columna-página*).
 
 ## Etiquetado
 
@@ -59,7 +59,7 @@ Además de ello, las normas TEI P5 dan valores recomendados a varios atributos, 
 5. Para elementos considerados errores en el contexto del texto, se utiliza `<sic>`. Haría falta un conocimiento verdaderamente profundo de la escritura francesa de la época para utilizar esto efectivamente, así que su uso es bastante reducido.
 6. Nombres personales codificados con `<persName>`, nombres de organizaciones, con `<orgName>`, topónimos con `<placeName>` y gentilicios con `<rs type="demonym">`. A todos ellos acompaña un atributo `@type` para clasificarlo (`"king"`, `"city"`) y el atributo `ref="#código"`, donde `código` es reemplazado por un identificador único que permite singularizar y referenciar ese elemento en concreto.
 	  - En la singularización que se hace de personajes, organizaciones y lugares antes del texto se utilizan `<trait>` para indicar vinculaciones. En los personajes, `<roleName>` con el atributo `ref="#organización"` (donde `organización` se sustituye por el identificador concreto) se utiliza para vincularlos a organizaciones listadas.
-7. Fechas y duraciones se etiquetan con `<date>`, añadiendo el atributo `@when` para una fecha concreta, `@notAfter` o `@notBefore` para dataciones _ante quem_ y _post quem_, `@from` y `@to` para un rango concreto y `@dur` para indicar duraciones (se utilizan `YS` para indicar años). Se añadió el atributo `@type` para indicar algún tipo de datación específica, como Ab Urbe Condita (`AUC`). Lo mismo aplica para `<birth>` y `<death>` en el caso de los personajes.
+7. Fechas y duraciones se etiquetan con `<date>`, añadiendo el atributo `@when` para una fecha concreta, `@notAfter` o `@notBefore` para dataciones *ante quem* y *post quem*, `@from` y `@to` para un rango concreto y `@dur` para indicar duraciones (se utilizan `YS` para indicar años). Se añadió el atributo `@type` para indicar algún tipo de datación específica, como Ab Urbe Condita (`AUC`). Lo mismo aplica para `<birth>` y `<death>` en el caso de los personajes.
 
 ### Miscelánea: comentarios
 
