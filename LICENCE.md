@@ -1,4 +1,4 @@
-# Attribution-ShareAlike 4.0 International
+# [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## About the licence and Creative Commons
 
@@ -16,7 +16,7 @@ Our public licences are intended for use by those authorized to give the public 
 
 By using one of our public licences, a licensor grants the public permission to use the licensed material under specified terms and conditions. If the licensor’s permission is not necessary for any reason–for example, because of any applicable exception or limitation to copyright–then that use is not regulated by the licence. Our licences grant only permissions under copyright and certain other rights that a licensor has authority to grant. Use of the licensed material may still be restricted for other reasons, including because others have copyright or other rights in the material. A licensor may make special requests, such as asking that all changes be marked or described. Although not required by our licences, you are encouraged to respect those requests where reasonable. [More considerations for the public](http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensees).
 
-## Creative Commons Attribution-ShareAlike 4.0 International Public Licence
+## [Creative Commons Attribution-ShareAlike 4.0 International Public Licence](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en)
 
 By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-ShareAlike 4.0 International Public Licence (‘Public Licence’). To the extent this Public Licence may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.
 
