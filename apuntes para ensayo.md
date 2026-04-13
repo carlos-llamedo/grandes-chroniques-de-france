@@ -31,3 +31,4 @@ En el desarrollo de abreviaturas se opta por modernizar la palabra si cabe. Así
 <https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html>
 
 A cada paso, he comprobado en TEI P5 que cada elemento pudiera ser contenido por su continente. La mayoría del trabajo ha expandido respecto a lo visto en clase empleando esta técnica, partiendo de lo visto y buscando en las normas TEI qué podría contener cada elemento, dilucidando si es aplicable y útil al trabajo o no. Esto ha tenido efectos positivos —la edición es técnicamente relativamente completa— pero también negativos —ha llevado mucho más tiempo de revisión de la documentación TEI—.
+
