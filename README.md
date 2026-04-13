@@ -1,7 +1,8 @@
-[![CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/deed.es)
+[![CC BY-SA 4.0](<https://img.shields.io/badge/License-CC BY--SA 4.0-lightgrey.svg>)](https://creativecommons.org/licenses/by-sa/4.0/deed.es)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--2819--5157-green?logo=orcid&logoColor=white)](https://orcid.org/0009-0009-2819-5157)
 
 # *Grandes chroniques de France* de Charles V. Prólogo, índice de contenidos y caps. I-V en formato digital
+
 ## Editado por [Carlos Llamedo Gutiérrez](https://orcid.org/0009-0009-2819-5157)
 
 # Presentación del proyecto y del texto
