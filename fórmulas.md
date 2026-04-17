@@ -12,4 +12,3 @@ para eliminar tabulaciones
 	buscar y sustituir con expresión regular
     `\t`
 	nada en el segundo cajón
-
