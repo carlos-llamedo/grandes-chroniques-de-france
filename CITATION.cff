@@ -1,10 +1,13 @@
-cff-version: 1.2.0  
-message: "Si usa esta edición, cítela como se indica"  
+cff-version: 1.2.0
+message: "Si usa esta edición, cítela como se indica:"
 authors:
-- family-names: Llamedo Gutiérrez  
-  given-names: Carlos  
-  orcid: <https://orcid.org/0009-0009-2819-5157>  
-
-title: "«Grandes chroniques de France» de Charles V. Prólogo, índice de contenidos y caps. I-V en formato digital"  
-date-released: 2024-05  
-url: "<https://codeberg.org/carlos-llamedo/grandes-chroniques-de-france>"
+- family-names: Llamedo Gutiérrez
+  given-names: Carlos
+  email: carlosllamedo@protonmail.com
+  orcid: https://orcid.org/0009-0009-2819-5157
+title: "«Grandes chroniques de France» de Charles V. Prólogo, índice de contenidos y caps. I-V en formato digital"
+abstract: "Este repositorio presenta una edición digital de las «Grandes crónicas de Francia», un texto bajomedieval encargado por el rey Carlos V de Francia, siguiendo la especificación TEI P5."
+date-released: 2024-05
+license: CC-BY-SA-4.0
+license-url: https://creativecommons.org/licenses/by-sa/4.0
+url: https://codeberg.org/carlos-llamedo/grandes-chroniques-de-france
