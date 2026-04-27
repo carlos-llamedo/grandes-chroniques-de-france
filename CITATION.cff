@@ -5,7 +5,7 @@ authors:
   given-names: Carlos
   email: carlosllamedo@protonmail.com
   orcid: https://orcid.org/0009-0009-2819-5157
-title: "«Grandes chroniques de France» de Charles V. Prólogo, índice de contenidos y caps. I-V en formato digital"
+title: "«Grandes chroniques de France» de Charles V. Prólogo, índice de contenidos y caps. \textsc{i}-\textsc{v} en formato digital"
 abstract: "Este repositorio presenta una edición digital de las «Grandes crónicas de Francia», un texto bajomedieval encargado por el rey Carlos V de Francia, siguiendo la especificación TEI P5."
 date-released: 2024-05
 license: CC-BY-SA-4.0
